@@ -365,7 +365,29 @@ export const IndiaMapSvg: React.FC<IndiaMapSvgProps> = ({
       const dist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
       const factor = dist / pinchDistRef.current;
       pinchDistRef.current = dist;
-      setZoom((z) => Math.min(16, Math.max(0.5, z * factor)));
+      const newZoom = Math.min(16, Math.max(0.5, zoom * factor));
+
+      const svg = svgRef.current;
+      if (svg) {
+        const rect = svg.getBoundingClientRect();
+        if (rect.width > 0 && rect.height > 0) {
+          const midClientX = (t1.clientX + t2.clientX) / 2;
+          const midClientY = (t1.clientY + t2.clientY) / 2;
+          const fx = (midClientX - rect.left) / rect.width;
+          const fy = (midClientY - rect.top) / rect.height;
+          const baseSvgX = fx * 1000;
+          const baseSvgY = fy * 1140;
+
+          const cursorSvgX = (baseSvgX - pan.x) / zoom;
+          const cursorSvgY = (baseSvgY - pan.y) / zoom;
+
+          setPan({
+            x: baseSvgX - cursorSvgX * newZoom,
+            y: baseSvgY - cursorSvgY * newZoom
+          });
+        }
+      }
+      setZoom(newZoom);
     }
   };
 
