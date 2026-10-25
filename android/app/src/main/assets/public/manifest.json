@@ -1,0 +1,22 @@
+{
+  "short_name": "UPSC Map",
+  "name": "UPSC Civil Services Map Trainer",
+  "description": "100% Offline Interactive Map Atlas & Prelims Quiz Trainer for UPSC Civil Services Examination",
+  "icons": [
+    {
+      "src": "pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F7F2EA",
+  "theme_color": "#1F3A4D",
+  "display": "standalone",
+  "orientation": "portrait"
+}

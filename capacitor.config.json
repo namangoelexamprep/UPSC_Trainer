@@ -1,0 +1,11 @@
+{
+  "appId": "com.upsc.maptrainer",
+  "appName": "UPSC Map Trainer",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "AdMob": {
+      "appId": "ca-app-pub-3940256099942544~3347511713"
+    }
+  }
+}

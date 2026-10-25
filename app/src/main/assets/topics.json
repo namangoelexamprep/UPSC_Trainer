@@ -1,0 +1,2591 @@
+[
+  {
+    "id": "coal_fields",
+    "title": "Coal & Lignite Fields",
+    "emoji": "\u26cf\ufe0f",
+    "color": "#475569",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Mineral Resources",
+    "noun": "coalfield",
+    "blurb": "Gondwana coal basins and tertiary lignite deposits across India.",
+    "categories": [
+      "Coking Coal",
+      "Non-Coking Coal",
+      "Lignite"
+    ],
+    "places": [
+      {
+        "name": "Jharia",
+        "lat": 23.742,
+        "lon": 86.413,
+        "state": "Jharkhand",
+        "category": "Coking Coal",
+        "fact": "India's sole storehouse of prime coking coal; famous for chronic underground mine fires in the Damodar Valley."
+      },
+      {
+        "name": "Bokaro",
+        "lat": 23.784,
+        "lon": 85.962,
+        "state": "Jharkhand",
+        "category": "Coking Coal",
+        "fact": "Vital medium-coking coal source feeding Bokaro and Rourkela steel plants in Damodar Valley."
+      },
+      {
+        "name": "Raniganj",
+        "lat": 23.619,
+        "lon": 87.129,
+        "state": "West Bengal",
+        "category": "Non-Coking Coal",
+        "fact": "India's oldest commercial coalfield opened in 1774; non-coking coal with high volatile matter."
+      },
+      {
+        "name": "Talcher",
+        "lat": 20.95,
+        "lon": 85.216,
+        "state": "Odisha",
+        "category": "Non-Coking Coal",
+        "fact": "Massive thermal non-coking coal reserve along the Brahmani river valley supporting NTPC plants."
+      },
+      {
+        "name": "Korba",
+        "lat": 22.359,
+        "lon": 82.684,
+        "state": "Chhattisgarh",
+        "category": "Non-Coking Coal",
+        "fact": "Key Hasdeo river basin field powering the Korba super thermal power station and BALCO."
+      },
+      {
+        "name": "Singrauli",
+        "lat": 24.199,
+        "lon": 82.664,
+        "state": "Madhya Pradesh",
+        "category": "Non-Coking Coal",
+        "fact": "Son river valley field known as India's Energy Capital; thickest coal seam in India (Purewa)."
+      },
+      {
+        "name": "Neyveli",
+        "lat": 11.536,
+        "lon": 79.486,
+        "state": "Tamil Nadu",
+        "category": "Lignite",
+        "fact": "Largest open-cast brown coal / lignite deposit in India operated by NLC India in Cuddalore district."
+      },
+      {
+        "name": "Palana",
+        "lat": 27.842,
+        "lon": 73.268,
+        "state": "Rajasthan",
+        "category": "Lignite",
+        "fact": "Tertiary lignite basin in Bikaner district utilized for thermal power generation."
+      },
+      {
+        "name": "North Karanpura",
+        "lat": 23.85,
+        "lon": 85.1,
+        "state": "Jharkhand",
+        "category": "Non-Coking Coal",
+        "fact": "Major coalfield in Upper Damodar basin with extensive pithead power generation."
+      },
+      {
+        "name": "Kothagudem",
+        "lat": 17.551,
+        "lon": 80.618,
+        "state": "Telangana",
+        "category": "Non-Coking Coal",
+        "fact": "Anchor field of Singareni Collieries (SCCL) in the Pranhita-Godavari valley."
+      },
+      {
+        "name": "Chandrapur",
+        "lat": 19.961,
+        "lon": 79.296,
+        "state": "Maharashtra",
+        "category": "Non-Coking Coal",
+        "fact": "Wardha valley coalfield sustaining Western Coalfields Ltd (WCL) thermal supply."
+      },
+      {
+        "name": "Ib Valley",
+        "lat": 21.834,
+        "lon": 83.921,
+        "state": "Odisha",
+        "category": "Non-Coking Coal",
+        "fact": "Part of the Mahanadi basin coalfields with extensive open-cast power-grade coal extraction."
+      },
+      {
+        "name": "Makum",
+        "lat": 27.3,
+        "lon": 95.75,
+        "state": "Assam",
+        "category": "Non-Coking Coal",
+        "fact": "Tertiary coalfield in upper Assam known for high-sulphur, low-ash metallurgical coal."
+      },
+      {
+        "name": "Nichahom",
+        "lat": 34.36,
+        "lon": 74.15,
+        "state": "Jammu & Kashmir",
+        "category": "Lignite",
+        "fact": "Karewa formation lignite deposit located in Kupwara district of Kashmir valley."
+      },
+      {
+        "name": "Giridih",
+        "lat": 24.186,
+        "lon": 86.305,
+        "state": "Jharkhand",
+        "category": "Coking Coal",
+        "fact": "High-grade metallurgical coal repository, home to the historic Karharbari seam."
+      },
+      {
+        "name": "Sohagpur",
+        "lat": 23.31,
+        "lon": 81.36,
+        "state": "Madhya Pradesh",
+        "category": "Non-Coking Coal",
+        "fact": "Major coal belt in Son valley basin operated by South Eastern Coalfields Limited."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which river valley hosts the prominent coalfields of Jharia, Bokaro and Raniganj?",
+        "correct": "Damodar Valley",
+        "wrong": [
+          "Son Valley",
+          "Mahanadi Valley",
+          "Godavari Valley"
+        ],
+        "explanation": "The Damodar Valley is renowned as the Ruhr of India and holds India's richest Gondwana coal deposits."
+      },
+      {
+        "question": "Which type of coal has the highest carbon content and lowest moisture?",
+        "correct": "Anthracite",
+        "wrong": [
+          "Bituminous",
+          "Lignite",
+          "Peat"
+        ],
+        "explanation": "Anthracite has >85% carbon content; found in small quantities in Jammu & Kashmir (Reasi)."
+      },
+      {
+        "question": "Which Indian state holds the largest reserves of Lignite (brown coal)?",
+        "correct": "Tamil Nadu",
+        "wrong": [
+          "Rajasthan",
+          "Gujarat",
+          "West Bengal"
+        ],
+        "explanation": "Tamil Nadu accounts for over 80% of India's identified lignite resources, centered around Neyveli."
+      },
+      {
+        "question": "The Singareni Collieries Company Limited (SCCL) operates primarily in which river basin?",
+        "correct": "Pranhita-Godavari Valley",
+        "wrong": [
+          "Damodar Valley",
+          "Narmada Valley",
+          "Brahmani Valley"
+        ],
+        "explanation": "SCCL operates in the Godavari Valley coalfield in Telangana."
+      }
+    ]
+  },
+  {
+    "id": "oil_gas_fields",
+    "title": "Oil & Gas Fields",
+    "emoji": "\ud83d\udee2\ufe0f",
+    "color": "#D97706",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Energy Resources",
+    "noun": "oil/gas field",
+    "blurb": "Major onshore basins and continental shelf offshore hydrocarbon reserves.",
+    "categories": [
+      "Onshore Oil/Gas",
+      "Offshore Oil/Gas"
+    ],
+    "places": [
+      {
+        "name": "Digboi",
+        "lat": 27.38,
+        "lon": 95.63,
+        "state": "Assam",
+        "category": "Onshore Oil/Gas",
+        "fact": "Oldest continuously operating oilfield and refinery in Asia, discovered in 1889."
+      },
+      {
+        "name": "Naharkatiya",
+        "lat": 27.28,
+        "lon": 95.33,
+        "state": "Assam",
+        "category": "Onshore Oil/Gas",
+        "fact": "First post-independence oil discovery in India (1953) along Burhi Dihing river."
+      },
+      {
+        "name": "Bombay High",
+        "lat": 19.416,
+        "lon": 71.333,
+        "state": "",
+        "category": "Offshore Oil/Gas",
+        "fact": "India's most prolific offshore oilfield on the continental shelf discovered in 1974, operated with Sagar Samrat."
+      },
+      {
+        "name": "Bassein",
+        "lat": 19.3,
+        "lon": 72.1,
+        "state": "",
+        "category": "Offshore Oil/Gas",
+        "fact": "Giant offshore natural gas field located south of Bombay High in the Arabian Sea."
+      },
+      {
+        "name": "Ankleshwar",
+        "lat": 21.626,
+        "lon": 73.015,
+        "state": "Gujarat",
+        "category": "Onshore Oil/Gas",
+        "fact": "Pivotal onshore Cambay basin discovery described by Jawaharlal Nehru as the 'Fountain of Prosperity'."
+      },
+      {
+        "name": "Kalol",
+        "lat": 23.238,
+        "lon": 72.496,
+        "state": "Gujarat",
+        "category": "Onshore Oil/Gas",
+        "fact": "Major North Cambay basin field producing heavy paraffinic crude oil near Ahmedabad."
+      },
+      {
+        "name": "Mehsana",
+        "lat": 23.588,
+        "lon": 72.369,
+        "state": "Gujarat",
+        "category": "Onshore Oil/Gas",
+        "fact": "Prolific heavy-oil producing onshore asset of ONGC with cyclic steam stimulation."
+      },
+      {
+        "name": "Mangala (Barmer)",
+        "lat": 25.819,
+        "lon": 71.28,
+        "state": "Rajasthan",
+        "category": "Onshore Oil/Gas",
+        "fact": "Largest onshore oil discovery in India in over two decades, located in Thar desert (Cairn)."
+      },
+      {
+        "name": "Ravva Field",
+        "lat": 16.48,
+        "lon": 82.32,
+        "state": "Andhra Pradesh",
+        "category": "Offshore Oil/Gas",
+        "fact": "Key offshore oil and natural gas production asset in the Krishna-Godavari (KG) shallow offshore."
+      },
+      {
+        "name": "Moran-Hugrijan",
+        "lat": 27.18,
+        "lon": 94.93,
+        "state": "Assam",
+        "category": "Onshore Oil/Gas",
+        "fact": "Upper Assam basin oilfield feeding the Barauni and Bongaigaon pipeline grid."
+      },
+      {
+        "name": "Cambay (Lunej)",
+        "lat": 22.313,
+        "lon": 72.619,
+        "state": "Gujarat",
+        "category": "Onshore Oil/Gas",
+        "fact": "First oil discovery by ONGC in Gujarat (1958) validating structural traps in Tertiary sediments."
+      },
+      {
+        "name": "Narimanam",
+        "lat": 10.82,
+        "lon": 79.74,
+        "state": "Tamil Nadu",
+        "category": "Onshore Oil/Gas",
+        "fact": "Important hydrocarbon producing onshore field in the Cauvery sedimentary basin."
+      }
+    ],
+    "questions": [
+      {
+        "question": "The 'Sagar Samrat' drillship is historically associated with which iconic offshore field?",
+        "correct": "Bombay High",
+        "wrong": [
+          "Ravva Field",
+          "Bassein Field",
+          "Panna-Mukta"
+        ],
+        "explanation": "Sagar Samrat drilled the discovery well in Bombay High in February 1974."
+      },
+      {
+        "question": "Where was the first commercially successful oil well drilled in India?",
+        "correct": "Digboi, Assam",
+        "wrong": [
+          "Ankleshwar, Gujarat",
+          "Naharkatiya, Assam",
+          "Barmer, Rajasthan"
+        ],
+        "explanation": "The first oil well was drilled in Digboi in 1889, leading to Asia's first oil refinery."
+      },
+      {
+        "question": "Which sedimentary basin hosts the deepwater gas fields of KG-D6?",
+        "correct": "Krishna-Godavari Basin",
+        "wrong": [
+          "Cauvery Basin",
+          "Mahanadi Basin",
+          "Cambay Basin"
+        ],
+        "explanation": "KG-D6 is located in the Krishna-Godavari deepwater basin off the coast of Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "id": "oil_refineries",
+    "title": "Oil Refineries",
+    "emoji": "\ud83c\udfed",
+    "color": "#B45309",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Industrial Location",
+    "noun": "refinery",
+    "blurb": "Coastal and inland petroleum refining centers of strategic importance.",
+    "categories": [
+      "PSU",
+      "Private",
+      "Joint Venture"
+    ],
+    "places": [
+      {
+        "name": "Jamnagar",
+        "lat": 22.47,
+        "lon": 70.057,
+        "state": "Gujarat",
+        "category": "Private",
+        "fact": "World's largest grassroots refining complex owned by Reliance Industries (export-oriented)."
+      },
+      {
+        "name": "Vadinar",
+        "lat": 22.442,
+        "lon": 69.712,
+        "state": "Gujarat",
+        "category": "Private",
+        "fact": "Second-largest single-site refinery in India operated by Nayara Energy in Gulf of Kutch."
+      },
+      {
+        "name": "Digboi",
+        "lat": 27.382,
+        "lon": 95.632,
+        "state": "Assam",
+        "category": "PSU",
+        "fact": "Asia's oldest operating oil refinery commissioned in 1901 by Assam Oil Company."
+      },
+      {
+        "name": "Barauni",
+        "lat": 25.46,
+        "lon": 85.96,
+        "state": "Bihar",
+        "category": "PSU",
+        "fact": "Constructed with Soviet and Romanian assistance in 1964; fed by pipeline from Assam and Paradip."
+      },
+      {
+        "name": "Mathura",
+        "lat": 27.42,
+        "lon": 77.68,
+        "state": "Uttar Pradesh",
+        "category": "PSU",
+        "fact": "Inland refinery equipped with sulfur scrubbers to protect the marble of the Taj Mahal."
+      },
+      {
+        "name": "Haldia",
+        "lat": 22.06,
+        "lon": 88.08,
+        "state": "West Bengal",
+        "category": "PSU",
+        "fact": "Port-based coastal refinery producing specialized lubricating base oils and fuels."
+      },
+      {
+        "name": "Paradip",
+        "lat": 20.316,
+        "lon": 86.611,
+        "state": "Odisha",
+        "category": "PSU",
+        "fact": "Modern deep-conversion coastal refinery of Indian Oil with an integrated polypropylene unit."
+      },
+      {
+        "name": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.27,
+        "state": "Andhra Pradesh",
+        "category": "PSU",
+        "fact": "East coast refinery of HPCL handling imported high-sulfur crude crudes."
+      },
+      {
+        "name": "Kochi",
+        "lat": 9.95,
+        "lon": 76.36,
+        "state": "Kerala",
+        "category": "PSU",
+        "fact": "Largest public sector refinery in India (BPCL) situated near the Vembanad backwaters."
+      },
+      {
+        "name": "Mangalore",
+        "lat": 12.98,
+        "lon": 74.83,
+        "state": "Karnataka",
+        "category": "PSU",
+        "fact": "MRPL coastal refinery situated near New Mangalore Port with single point mooring."
+      },
+      {
+        "name": "Bina",
+        "lat": 24.18,
+        "lon": 78.18,
+        "state": "Madhya Pradesh",
+        "category": "PSU",
+        "fact": "Originally built as a JV with Oman Oil (BORL), now fully integrated with BPCL."
+      },
+      {
+        "name": "Guru Gobind Singh (Bhatinda)",
+        "lat": 30.13,
+        "lon": 74.93,
+        "state": "Punjab",
+        "category": "Joint Venture",
+        "fact": "HPCL-Mittal Energy Limited (HMEL) inland refinery linked to Mundra port via crude pipeline."
+      },
+      {
+        "name": "Panipat",
+        "lat": 29.46,
+        "lon": 76.92,
+        "state": "Haryana",
+        "category": "PSU",
+        "fact": "Major north Indian petrochemical refinery hub meeting agrarian north fuel demand."
+      },
+      {
+        "name": "Numaligarh",
+        "lat": 26.58,
+        "lon": 93.74,
+        "state": "Assam",
+        "category": "PSU",
+        "fact": "Established under the historic 1985 Assam Accord, nicknamed the 'Accord Refinery'."
+      },
+      {
+        "name": "Bongaigaon",
+        "lat": 26.5,
+        "lon": 90.54,
+        "state": "Assam",
+        "category": "PSU",
+        "fact": "Integrated refinery and petrochemical complex in lower Assam."
+      },
+      {
+        "name": "Tatipaka",
+        "lat": 16.51,
+        "lon": 81.87,
+        "state": "Andhra Pradesh",
+        "category": "PSU",
+        "fact": "Mini refinery operated by ONGC processing local Krishna-Godavari condensate."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Why is the location of the Mathura refinery considered ecologically sensitive?",
+        "correct": "Proximity to the Taj Mahal",
+        "wrong": [
+          "Proximity to Ranthambore NP",
+          "Location on an earthquake fault line",
+          "Sinking water table of Yamuna"
+        ],
+        "explanation": "Mathura refinery emissions (SO2) created acid rain concerns regarding marble cancer at the Taj Mahal."
+      },
+      {
+        "question": "Which refinery was established as a direct outcome of the 1985 Assam Accord?",
+        "correct": "Numaligarh Refinery",
+        "wrong": [
+          "Digboi Refinery",
+          "Bongaigaon Refinery",
+          "Guwahati Refinery"
+        ],
+        "explanation": "Numaligarh Refinery was set up in accordance with Commitments made in the Assam Accord of 1985."
+      },
+      {
+        "question": "Which coastal facility houses the world's largest petroleum refining complex?",
+        "correct": "Jamnagar, Gujarat",
+        "wrong": [
+          "Vadinar, Gujarat",
+          "Paradip, Odisha",
+          "Ulsan, South Korea"
+        ],
+        "explanation": "Reliance Industries' Jamnagar complex possesses an aggregate capacity exceeding 1.24 million bpd."
+      }
+    ]
+  },
+  {
+    "id": "iron_steel_plants",
+    "title": "Iron & Steel Plants",
+    "emoji": "\ud83c\udfd7\ufe0f",
+    "color": "#475569",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Heavy Industries",
+    "noun": "steel plant",
+    "blurb": "Integrated public and private steel manufacturing hubs and alloy centers.",
+    "categories": [
+      "Integrated PSU",
+      "Private / Modern",
+      "Alloy / Specialized"
+    ],
+    "places": [
+      {
+        "name": "Jamshedpur (TISCO)",
+        "lat": 22.804,
+        "lon": 86.202,
+        "state": "Jharkhand",
+        "category": "Private / Modern",
+        "fact": "India's first private integrated steel plant founded by Jamsetji Tata in 1907 at Sakchi."
+      },
+      {
+        "name": "Bhilai",
+        "lat": 21.21,
+        "lon": 81.38,
+        "state": "Chhattisgarh",
+        "category": "Integrated PSU",
+        "fact": "Flagship SAIL plant built with Soviet collaboration; prime producer of railway rails."
+      },
+      {
+        "name": "Rourkela",
+        "lat": 22.22,
+        "lon": 84.85,
+        "state": "Odisha",
+        "category": "Integrated PSU",
+        "fact": "First public sector integrated steel plant built with German (Krupp-Demag) assistance; uses LD converter."
+      },
+      {
+        "name": "Durgapur",
+        "lat": 23.52,
+        "lon": 87.31,
+        "state": "West Bengal",
+        "category": "Integrated PSU",
+        "fact": "SAIL plant built with British collaboration on the Damodar river bank."
+      },
+      {
+        "name": "Bokaro",
+        "lat": 23.669,
+        "lon": 86.151,
+        "state": "Jharkhand",
+        "category": "Integrated PSU",
+        "fact": "Built with Soviet assistance in 1964; uses coal from Jharia and iron ore from Kiriburu."
+      },
+      {
+        "name": "Visakhapatnam (RINL)",
+        "lat": 17.62,
+        "lon": 83.21,
+        "state": "Andhra Pradesh",
+        "category": "Integrated PSU",
+        "fact": "India's only shore-based integrated public sector steel plant, having a natural deep harbor."
+      },
+      {
+        "name": "Salem Steel Plant",
+        "lat": 11.66,
+        "lon": 78.14,
+        "state": "Tamil Nadu",
+        "category": "Alloy / Specialized",
+        "fact": "Specialized SAIL facility producing world-class stainless steel utilizing local Kanjamalai iron ore."
+      },
+      {
+        "name": "Bhadravati (VISL)",
+        "lat": 13.84,
+        "lon": 75.7,
+        "state": "Karnataka",
+        "category": "Alloy / Specialized",
+        "fact": "Founded by Sir M. Visvesvaraya as Mysore Iron Works in 1923; uses charcoal initially due to lack of coal."
+      },
+      {
+        "name": "Burnpur (IISCO)",
+        "lat": 23.67,
+        "lon": 86.94,
+        "state": "West Bengal",
+        "category": "Integrated PSU",
+        "fact": "One of India's oldest integrated steel facilities, located on the Damodar river near Asansol."
+      },
+      {
+        "name": "Vijayanagar (JSW)",
+        "lat": 15.17,
+        "lon": 76.65,
+        "state": "Karnataka",
+        "category": "Private / Modern",
+        "fact": "JSW Steel flagship plant at Toranagallu utilizing rich Bellary-Hospet hematite ore."
+      },
+      {
+        "name": "Hazira",
+        "lat": 21.14,
+        "lon": 72.64,
+        "state": "Gujarat",
+        "category": "Private / Modern",
+        "fact": "AM/NS India coastal steel plant using direct reduced iron (DRI) on the Gulf of Khambhat."
+      },
+      {
+        "name": "Angul",
+        "lat": 20.84,
+        "lon": 85.1,
+        "state": "Odisha",
+        "category": "Private / Modern",
+        "fact": "Jindal Steel and Power mega complex with India's first coal gasification-based DRI plant."
+      },
+      {
+        "name": "Kalinganagar",
+        "lat": 20.95,
+        "lon": 86.02,
+        "state": "Odisha",
+        "category": "Private / Modern",
+        "fact": "Rapidly expanding modern steel cluster of Tata Steel in Jajpur district near Daitari mines."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which foreign nation provided technical assistance for the establishment of Rourkela Steel Plant?",
+        "correct": "Germany",
+        "wrong": [
+          "Soviet Union",
+          "United Kingdom",
+          "United States"
+        ],
+        "explanation": "Rourkela Steel Plant was built in 1959 in collaboration with German firms Krupp and Demag."
+      },
+      {
+        "question": "Which is the only shore-based integrated steel plant in India?",
+        "correct": "Visakhapatnam Steel Plant (RINL)",
+        "wrong": [
+          "Paradip Steel Plant",
+          "Haldia Plant",
+          "Hazira Plant"
+        ],
+        "explanation": "Rashtriya Ispat Nigam Limited (RINL) in Visakhapatnam is India's only shore-based integrated steel plant."
+      },
+      {
+        "question": "Why did the Bhadravati steel plant initially utilize charcoal rather than coking coal?",
+        "correct": "Absence of proximate coalfields in South India",
+        "wrong": [
+          "Charcoal produces zero sulfur",
+          "Mandate from the British Raj",
+          "Local iron ore required lower heat"
+        ],
+        "explanation": "South India lacks Gondwana coking coal; Sir M. Visvesvaraya utilized charcoal from local Bababudan forests."
+      }
+    ]
+  },
+  {
+    "id": "minerals_mines",
+    "title": "Mineral Belts & Mines",
+    "emoji": "\ud83d\udc8e",
+    "color": "#0D9488",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Non-Ferrous & Strategic Minerals",
+    "noun": "mine / deposit",
+    "blurb": "Strategic deposits of iron ore, copper, bauxite, uranium, gold and rare earths.",
+    "categories": [
+      "Iron Ore",
+      "Bauxite",
+      "Copper",
+      "Mica & Rare Earth",
+      "Gold & Strategic",
+      "Zinc & Lead"
+    ],
+    "places": [
+      {
+        "name": "Kudremukh",
+        "lat": 13.21,
+        "lon": 75.25,
+        "state": "Karnataka",
+        "category": "Iron Ore",
+        "fact": "Horse-face shaped peak with high-grade magnetite; mining ceased due to ecological impact on Western Ghats."
+      },
+      {
+        "name": "Bailadila",
+        "lat": 18.72,
+        "lon": 81.28,
+        "state": "Chhattisgarh",
+        "category": "Iron Ore",
+        "fact": "World-class high-grade hematite deposits (bullock hump shaped hills), exported to Japan via Vizag port."
+      },
+      {
+        "name": "Noamundi",
+        "lat": 22.15,
+        "lon": 85.53,
+        "state": "Jharkhand",
+        "category": "Iron Ore",
+        "fact": "Premier hematite iron ore mine in West Singhbhum feeding Tata Steel since 1925."
+      },
+      {
+        "name": "Panchpatmali",
+        "lat": 18.84,
+        "lon": 83.02,
+        "state": "Odisha",
+        "category": "Bauxite",
+        "fact": "Largest bauxite deposit in Asia located in Koraput district, mined by NALCO for Damanjodi."
+      },
+      {
+        "name": "Lohardaga",
+        "lat": 23.43,
+        "lon": 84.68,
+        "state": "Jharkhand",
+        "category": "Bauxite",
+        "fact": "Historic bauxite mining hub of the Chota Nagpur plateau feeding Hindalco at Renukoot."
+      },
+      {
+        "name": "Khetri",
+        "lat": 27.98,
+        "lon": 75.78,
+        "state": "Rajasthan",
+        "category": "Copper",
+        "fact": "Hindustan Copper Limited (HCL) belt in the Aravallis mined since Harappan times."
+      },
+      {
+        "name": "Malanjkhand",
+        "lat": 22.01,
+        "lon": 80.71,
+        "state": "Madhya Pradesh",
+        "category": "Copper",
+        "fact": "Largest copper ore open-pit mine in India, located in Balaghat district."
+      },
+      {
+        "name": "Koderma",
+        "lat": 24.46,
+        "lon": 85.59,
+        "state": "Jharkhand",
+        "category": "Mica & Rare Earth",
+        "fact": "Historic 'Mica Capital of the World', known for premium ruby mica (muscovite)."
+      },
+      {
+        "name": "Hutti",
+        "lat": 16.2,
+        "lon": 76.65,
+        "state": "Karnataka",
+        "category": "Gold & Strategic",
+        "fact": "Only operating active primary gold mine in India today, located in Raichur district."
+      },
+      {
+        "name": "Kolar Gold Fields (KGF)",
+        "lat": 12.96,
+        "lon": 78.27,
+        "state": "Karnataka",
+        "category": "Gold & Strategic",
+        "fact": "One of world's deepest historic gold mines in champion lode, ceased operations in 2001."
+      },
+      {
+        "name": "Zawar",
+        "lat": 24.35,
+        "lon": 73.71,
+        "state": "Rajasthan",
+        "category": "Zinc & Lead",
+        "fact": "Ancient zinc smelting site (carbon-14 dated to 12th century AD) operated by Hindustan Zinc."
+      },
+      {
+        "name": "Jaduguda",
+        "lat": 22.65,
+        "lon": 86.35,
+        "state": "Jharkhand",
+        "category": "Mica & Rare Earth",
+        "fact": "First uranium mine of India opened in 1967 in Singhbhum thrust belt (UCIL)."
+      },
+      {
+        "name": "Tummalapalle",
+        "lat": 14.32,
+        "lon": 78.25,
+        "state": "Andhra Pradesh",
+        "category": "Mica & Rare Earth",
+        "fact": "One of world's largest uranium reserves hosted in Vempalle dolomites of Cuddapah basin."
+      },
+      {
+        "name": "Chavara",
+        "lat": 9.0,
+        "lon": 76.53,
+        "state": "Kerala",
+        "category": "Mica & Rare Earth",
+        "fact": "Coastal placer mineral deposit rich in ilmenite, rutile, zircon and monazite sands."
+      },
+      {
+        "name": "Balaghat",
+        "lat": 21.81,
+        "lon": 80.18,
+        "state": "Madhya Pradesh",
+        "category": "Mica & Rare Earth",
+        "fact": "Accounts for ~80% of India's manganese production (Bharweli underground mine)."
+      },
+      {
+        "name": "Sukinda",
+        "lat": 21.03,
+        "lon": 85.8,
+        "state": "Odisha",
+        "category": "Iron Ore",
+        "fact": "Houses 95% of India's chromite deposits in Jajpur district, crucial for stainless steel."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which mine in the Cuddapah basin of Andhra Pradesh is estimated to host one of the world's largest uranium deposits?",
+        "correct": "Tummalapalle",
+        "wrong": [
+          "Jaduguda",
+          "Domiasiat",
+          "Turamdih"
+        ],
+        "explanation": "Tummalapalle in YSR Kadapa district was confirmed by DAE to possess exceptionally large uranium reserves."
+      },
+      {
+        "question": "What strategic mineral is primarily extracted from the coastal beach sands of Chavara and Manavalakurichi?",
+        "correct": "Monazite (Thorium source)",
+        "wrong": [
+          "Bauxite",
+          "Chromite",
+          "Pitchblende"
+        ],
+        "explanation": "Monazite beach placers contain thorium, the cornerstone of Stage 3 of India's Nuclear Energy Programme."
+      },
+      {
+        "question": "Kudremukh iron ore deposit in Karnataka is famous for which grade of ore?",
+        "correct": "Magnetite",
+        "wrong": [
+          "Hematite",
+          "Limonite",
+          "Siderite"
+        ],
+        "explanation": "Kudremukh contains massive low-grade magnetite deposits enriched through beneficiation and piped as slurry to Mangalore."
+      }
+    ]
+  },
+  {
+    "id": "major_ports",
+    "title": "Major Ports of India",
+    "emoji": "\u2693",
+    "color": "#0284C7",
+    "syllabus": "GS1/GS3 \u00b7 Infrastructure \u00b7 Shipping",
+    "noun": "port",
+    "blurb": "Central government major ports and newly approved deep-draft landlord ports.",
+    "categories": [
+      "West Coast Port",
+      "East Coast Port",
+      "Major Landlord / New"
+    ],
+    "places": [
+      {
+        "name": "Deendayal (Kandla)",
+        "lat": 23.003,
+        "lon": 70.218,
+        "state": "Gujarat",
+        "category": "West Coast Port",
+        "fact": "Tidal port built in the 1950s after loss of Karachi to Pakistan; operates a major SEZ."
+      },
+      {
+        "name": "Mumbai Port",
+        "lat": 18.94,
+        "lon": 72.84,
+        "state": "Maharashtra",
+        "category": "West Coast Port",
+        "fact": "India's premier natural deepwater harbor, historically the gateway of Indian oceanic trade."
+      },
+      {
+        "name": "Jawaharlal Nehru Port (JNPT)",
+        "lat": 18.95,
+        "lon": 72.95,
+        "state": "Maharashtra",
+        "category": "West Coast Port",
+        "fact": "First 100% landlord major port in India and the busiest container handling gateway."
+      },
+      {
+        "name": "Mormugao",
+        "lat": 15.41,
+        "lon": 73.8,
+        "state": "Goa",
+        "category": "West Coast Port",
+        "fact": "Natural harbor at the mouth of the Zuari river, premier port for iron ore exports."
+      },
+      {
+        "name": "New Mangalore",
+        "lat": 12.92,
+        "lon": 74.81,
+        "state": "Karnataka",
+        "category": "West Coast Port",
+        "fact": "All-weather deep-water port handling Kudremukh iron ore pellets and POL imports."
+      },
+      {
+        "name": "Cochin Port",
+        "lat": 9.96,
+        "lon": 76.27,
+        "state": "Kerala",
+        "category": "West Coast Port",
+        "fact": "Natural port situated on Willingdon and Vallarpadam islands in the Vembanad lake."
+      },
+      {
+        "name": "V.O. Chidambaranar (Tuticorin)",
+        "lat": 8.75,
+        "lon": 78.18,
+        "state": "Tamil Nadu",
+        "category": "East Coast Port",
+        "fact": "Artificial deep-sea port in Gulf of Mannar handling thermal coal and Sri Lanka feeder traffic."
+      },
+      {
+        "name": "Chennai Port",
+        "lat": 13.08,
+        "lon": 80.29,
+        "state": "Tamil Nadu",
+        "category": "East Coast Port",
+        "fact": "Second-oldest major port of India (artificial harbor opened in 1881), major car export hub."
+      },
+      {
+        "name": "Kamarajar (Ennore)",
+        "lat": 13.26,
+        "lon": 80.33,
+        "state": "Tamil Nadu",
+        "category": "East Coast Port",
+        "fact": "India's first corporate major port (publicly corporatized under Companies Act)."
+      },
+      {
+        "name": "Visakhapatnam Port",
+        "lat": 17.68,
+        "lon": 83.29,
+        "state": "Andhra Pradesh",
+        "category": "East Coast Port",
+        "fact": "Landlocked natural harbor protected by the Dolphin's Nose hill, deepest inner harbor."
+      },
+      {
+        "name": "Paradip Port",
+        "lat": 20.26,
+        "lon": 86.67,
+        "state": "Odisha",
+        "category": "East Coast Port",
+        "fact": "Deep-draft port at the mouth of the Mahanadi river handling bulk iron ore and coking coal."
+      },
+      {
+        "name": "Kolkata & Haldia",
+        "lat": 22.54,
+        "lon": 88.31,
+        "state": "West Bengal",
+        "category": "East Coast Port",
+        "fact": "Only riverine major port in India, located on the tidal Hooghly river with diamond harbor."
+      },
+      {
+        "name": "Vadhavan",
+        "lat": 19.98,
+        "lon": 72.7,
+        "state": "Maharashtra",
+        "category": "Major Landlord / New",
+        "fact": "All-weather deep-draft mega greenfield port approved in Palghar district with 20m draft."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which is the only riverine major port in India?",
+        "correct": "Syama Prasad Mookerjee Port (Kolkata)",
+        "wrong": [
+          "Paradip Port",
+          "Cochin Port",
+          "Mormugao Port"
+        ],
+        "explanation": "Kolkata Port is located 203 km inland on the tidal Hooghly river system."
+      },
+      {
+        "question": "Why was Kandla Port (Deendayal Port) developed after 1947?",
+        "correct": "To compensate for the loss of Karachi port to Pakistan",
+        "wrong": [
+          "To export Singrauli coal",
+          "Exclusively for crude oil import",
+          "To establish a naval submarine base"
+        ],
+        "explanation": "Partition gave Karachi port to Pakistan, necessitating a western deep gateway to serve Punjab, Rajasthan and Gujarat."
+      },
+      {
+        "question": "Which major port in India was corporatized first as a public company?",
+        "correct": "Kamarajar Port (Ennore)",
+        "wrong": [
+          "JNPT",
+          "Chennai Port",
+          "Deendayal Port"
+        ],
+        "explanation": "Kamarajar Port (Ennore) was originally incorporated under the Companies Act, 1956."
+      }
+    ]
+  },
+  {
+    "id": "nuclear_power",
+    "title": "Nuclear Power Sites",
+    "emoji": "\u269b\ufe0f",
+    "color": "#7C3AED",
+    "syllabus": "GS3 \u00b7 Science & Tech \u00b7 Nuclear Energy",
+    "noun": "nuclear plant",
+    "blurb": "Operating commercial reactors, fast breeders, and proposed mega parks.",
+    "categories": [
+      "Operational NPP",
+      "Under Construction",
+      "Proposed / Planned"
+    ],
+    "places": [
+      {
+        "name": "Tarapur",
+        "lat": 19.83,
+        "lon": 72.66,
+        "state": "Maharashtra",
+        "category": "Operational NPP",
+        "fact": "India's first commercial nuclear power station (1969), utilizing Boiling Water Reactors (BWR)."
+      },
+      {
+        "name": "Rawatbhata (RAPS)",
+        "lat": 24.87,
+        "lon": 75.59,
+        "state": "Rajasthan",
+        "category": "Operational NPP",
+        "fact": "First pressurized heavy water reactor (PHWR) in India, built in collaboration with Canada."
+      },
+      {
+        "name": "Kudankulam",
+        "lat": 8.169,
+        "lon": 77.712,
+        "state": "Tamil Nadu",
+        "category": "Operational NPP",
+        "fact": "India's highest capacity NPP, featuring Russian VVER-1000 pressurized water reactors."
+      },
+      {
+        "name": "Kalpakkam (MAPS & PFBR)",
+        "lat": 12.56,
+        "lon": 80.17,
+        "state": "Tamil Nadu",
+        "category": "Operational NPP",
+        "fact": "Indigenously designed PHWR and the site of India's Prototype Fast Breeder Reactor (500 MWe)."
+      },
+      {
+        "name": "Kaiga",
+        "lat": 14.86,
+        "lon": 74.43,
+        "state": "Karnataka",
+        "category": "Operational NPP",
+        "fact": "Located amidst Western Ghats on Kali river; holds world record for 962 days of continuous operation."
+      },
+      {
+        "name": "Kakrapar",
+        "lat": 21.24,
+        "lon": 73.35,
+        "state": "Gujarat",
+        "category": "Operational NPP",
+        "fact": "Site of India's first indigenously designed 700 MWe commercial PHWR reactor (KAPP-3)."
+      },
+      {
+        "name": "Narora",
+        "lat": 28.16,
+        "lon": 78.41,
+        "state": "Uttar Pradesh",
+        "category": "Operational NPP",
+        "fact": "Located on the banks of Ganga in Uttar Pradesh; engineered for Seismic Zone IV."
+      },
+      {
+        "name": "Gorakhpur (GHAVP)",
+        "lat": 29.45,
+        "lon": 75.67,
+        "state": "Haryana",
+        "category": "Under Construction",
+        "fact": "First nuclear power plant in Haryana (Fatehabad district), utilizing water from Bhakra canal."
+      },
+      {
+        "name": "Jaitapur",
+        "lat": 16.59,
+        "lon": 73.32,
+        "state": "Maharashtra",
+        "category": "Proposed / Planned",
+        "fact": "Proposed 9900 MWe mega nuclear park with French EPR reactors in Ratnagiri district."
+      },
+      {
+        "name": "Kovvada",
+        "lat": 18.21,
+        "lon": 83.97,
+        "state": "Andhra Pradesh",
+        "category": "Proposed / Planned",
+        "fact": "Proposed AP1000 pressurized water reactor complex in Srikakulam district (US collaboration)."
+      },
+      {
+        "name": "Chutka",
+        "lat": 22.84,
+        "lon": 80.2,
+        "state": "Madhya Pradesh",
+        "category": "Proposed / Planned",
+        "fact": "Proposed 2x700 MWe indigenous PHWR project in Mandla district on the Narmada river."
+      },
+      {
+        "name": "Mahi Banswara",
+        "lat": 23.55,
+        "lon": 74.45,
+        "state": "Rajasthan",
+        "category": "Proposed / Planned",
+        "fact": "Approved fleet-mode indigenous 4x700 MWe PHWR nuclear project in southern Rajasthan."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which nuclear reactor in India set a global record for continuous uninterrupted operation of 962 days?",
+        "correct": "Kaiga Generating Station Unit-1",
+        "wrong": [
+          "Tarapur Unit-1",
+          "Kudankulam Unit-2",
+          "Rawatbhata Unit-5"
+        ],
+        "explanation": "Kaiga Unit-1 operated continuously for 962 days before being safely shut down for planned maintenance."
+      },
+      {
+        "question": "Which type of reactor is installed at the Kudankulam Nuclear Power Plant?",
+        "correct": "VVER Pressurized Water Reactor",
+        "wrong": [
+          "Boiling Water Reactor (BWR)",
+          "CANDU Reactor",
+          "Gas Cooled Fast Reactor"
+        ],
+        "explanation": "Kudankulam features Russian-supplied VVER-1000 light water reactors cooled and moderated by light water."
+      },
+      {
+        "question": "Where is India's 500 MWe Prototype Fast Breeder Reactor (PFBR) located?",
+        "correct": "Kalpakkam, Tamil Nadu",
+        "wrong": [
+          "Kaiga, Karnataka",
+          "Kakrapar, Gujarat",
+          "Rawatbhata, Rajasthan"
+        ],
+        "explanation": "The PFBR is situated at the Indira Gandhi Centre for Atomic Research (IGCAR) complex at Kalpakkam."
+      }
+    ]
+  },
+  {
+    "id": "dams_barrages",
+    "title": "Dams & Barrages",
+    "emoji": "\ud83c\udf0a",
+    "color": "#2563EB",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Water Resources & River Systems",
+    "noun": "dam / barrage",
+    "blurb": "Architectural marvels across India's peninsular and Himalayan river systems.",
+    "categories": [
+      "Gravity Dam",
+      "Earthfill / Embankment",
+      "Barrage / Diversion"
+    ],
+    "places": [
+      {
+        "name": "Tehri Dam",
+        "lat": 30.378,
+        "lon": 78.48,
+        "state": "Uttarakhand",
+        "category": "Earthfill / Embankment",
+        "fact": "Highest dam in India (260.5 m) rock-and-earth fill embankment on Bhagirathi river."
+      },
+      {
+        "name": "Bhakra Dam",
+        "lat": 31.41,
+        "lon": 76.43,
+        "state": "Himachal Pradesh",
+        "category": "Gravity Dam",
+        "fact": "Iconic concrete gravity dam on the Satluj river forming the Gobind Sagar reservoir."
+      },
+      {
+        "name": "Sardar Sarovar Dam",
+        "lat": 21.83,
+        "lon": 73.74,
+        "state": "Gujarat",
+        "category": "Gravity Dam",
+        "fact": "Terminal concrete gravity dam on Narmada river supporting the Statue of Unity downstream."
+      },
+      {
+        "name": "Hirakud Dam",
+        "lat": 21.52,
+        "lon": 83.87,
+        "state": "Odisha",
+        "category": "Earthfill / Embankment",
+        "fact": "Longest earthen dam in the world (25.8 km total length) built across Mahanadi river."
+      },
+      {
+        "name": "Nagarjuna Sagar",
+        "lat": 16.57,
+        "lon": 79.31,
+        "state": "Telangana",
+        "category": "Gravity Dam",
+        "fact": "World's largest masonry dam built across Krishna river between Nalgonda and Guntur."
+      },
+      {
+        "name": "Idukki Dam",
+        "lat": 9.85,
+        "lon": 76.97,
+        "state": "Kerala",
+        "category": "Gravity Dam",
+        "fact": "Concrete double-curvature parabolic thin arch dam between Kuravan and Kurathi hills on Periyar."
+      },
+      {
+        "name": "Koyna Dam",
+        "lat": 17.39,
+        "lon": 73.74,
+        "state": "Maharashtra",
+        "category": "Gravity Dam",
+        "fact": "Rubble-concrete dam on Koyna river, notorious for the 1967 reservoir-triggered earthquake."
+      },
+      {
+        "name": "Farakka Barrage",
+        "lat": 24.8,
+        "lon": 87.93,
+        "state": "West Bengal",
+        "category": "Barrage / Diversion",
+        "fact": "Barrage diverting 40,000 cusecs of Ganga water into the Bhagirathi-Hooghly to flush Kolkata port."
+      },
+      {
+        "name": "Pong Dam",
+        "lat": 31.97,
+        "lon": 75.95,
+        "state": "Himachal Pradesh",
+        "category": "Earthfill / Embankment",
+        "fact": "Highest earth-fill dam in India on the Beas river forming Maharana Pratap Sagar Ramsar site."
+      },
+      {
+        "name": "Mullaperiyar Dam",
+        "lat": 9.53,
+        "lon": 77.14,
+        "state": "Kerala",
+        "category": "Gravity Dam",
+        "fact": "Masonry gravity dam located in Kerala on Periyar river but leased and operated by Tamil Nadu."
+      },
+      {
+        "name": "Almatti Dam",
+        "lat": 16.33,
+        "lon": 75.89,
+        "state": "Karnataka",
+        "category": "Gravity Dam",
+        "fact": "Main reservoir of the Upper Krishna Project generating hydroelectric power in Bijapur district."
+      },
+      {
+        "name": "Gandhi Sagar",
+        "lat": 24.7,
+        "lon": 75.52,
+        "state": "Madhya Pradesh",
+        "category": "Gravity Dam",
+        "fact": "First of the four major dams built on the Chambal river under the Chambal Valley Project."
+      },
+      {
+        "name": "Indira Sagar",
+        "lat": 22.28,
+        "lon": 74.98,
+        "state": "Madhya Pradesh",
+        "category": "Gravity Dam",
+        "fact": "Key mother dam on Narmada river with the largest reservoir capacity in India (12.22 billion m3)."
+      }
+    ],
+    "questions": [
+      {
+        "question": "The Idukki Dam in Kerala across the Periyar river is notable for which structural design?",
+        "correct": "Double-curvature parabolic arch dam",
+        "wrong": [
+          "Rockfill embankment",
+          "Buttress dam",
+          "Wooden crib dam"
+        ],
+        "explanation": "Idukki is one of the highest arch dams in Asia, constructed between two granite hills without spillways."
+      },
+      {
+        "question": "Why was the Farakka Barrage constructed across the Ganga river in West Bengal?",
+        "correct": "To preserve and flush the Port of Kolkata from siltation",
+        "wrong": [
+          "To irrigate dry districts of Purulia",
+          "To produce nuclear cooling water",
+          "To divert water to Bangladesh"
+        ],
+        "explanation": "Farakka Barrage diverts water into the Bhagirathi-Hooghly system to maintain draft at Kolkata port."
+      },
+      {
+        "question": "Which dam holds the title of the longest earthen dam in the world?",
+        "correct": "Hirakud Dam",
+        "wrong": [
+          "Tehri Dam",
+          "Bhakra Dam",
+          "Nagarjuna Sagar"
+        ],
+        "explanation": "Hirakud Dam across the Mahanadi has an overall dyke length extending over 25.8 km."
+      }
+    ]
+  },
+  {
+    "id": "national_parks",
+    "title": "National Parks & Tiger Reserves",
+    "emoji": "\ud83d\udc05",
+    "color": "#16A34A",
+    "syllabus": "GS3 \u00b7 Environment \u00b7 Wildlife Conservation",
+    "noun": "national park / reserve",
+    "blurb": "Prime habitats of the Royal Bengal Tiger, Asiatic Lion, and endemic fauna.",
+    "categories": [
+      "Tiger Reserve",
+      "National Park",
+      "Elephant & Rhino Reserve"
+    ],
+    "places": [
+      {
+        "name": "Jim Corbett",
+        "lat": 29.53,
+        "lon": 78.77,
+        "state": "Uttarakhand",
+        "category": "Tiger Reserve",
+        "fact": "India's first national park (1936, Hailey NP) and birthplace of Project Tiger in 1973 on Ramganga river."
+      },
+      {
+        "name": "Kaziranga",
+        "lat": 26.57,
+        "lon": 93.17,
+        "state": "Assam",
+        "category": "Elephant & Rhino Reserve",
+        "fact": "UNESCO World Heritage site harboring two-thirds of world's great one-horned rhinoceros."
+      },
+      {
+        "name": "Keoladeo Ghana",
+        "lat": 27.16,
+        "lon": 77.52,
+        "state": "Rajasthan",
+        "category": "National Park",
+        "fact": "UNESCO site and Ramsar wetland famous for wintering Siberian cranes; Montreux Record site."
+      },
+      {
+        "name": "Ranthambore",
+        "lat": 26.01,
+        "lon": 76.5,
+        "state": "Rajasthan",
+        "category": "Tiger Reserve",
+        "fact": "Junction of Aravalli and Vindhya ranges with historic 10th century fort inside."
+      },
+      {
+        "name": "Sundarbans",
+        "lat": 21.94,
+        "lon": 88.89,
+        "state": "West Bengal",
+        "category": "Tiger Reserve",
+        "fact": "World's largest mangrove delta, habitat of swimming tigers adapting to saline tides."
+      },
+      {
+        "name": "Gir National Park",
+        "lat": 21.12,
+        "lon": 70.8,
+        "state": "Gujarat",
+        "category": "National Park",
+        "fact": "Only surviving natural sanctuary of the Asiatic Lion (Panthera leo persica) in Kathiawar peninsula."
+      },
+      {
+        "name": "Bandipur",
+        "lat": 11.66,
+        "lon": 76.62,
+        "state": "Karnataka",
+        "category": "Tiger Reserve",
+        "fact": "Part of the Nilgiri Biosphere Reserve, contiguous with Mudumalai, Wayanad and Nagarhole."
+      },
+      {
+        "name": "Periyar",
+        "lat": 9.46,
+        "lon": 77.14,
+        "state": "Kerala",
+        "category": "Elephant & Rhino Reserve",
+        "fact": "Cardamom hills sanctuary surrounding Periyar lake, notable for Asian elephants and tigers."
+      },
+      {
+        "name": "Kanha",
+        "lat": 22.33,
+        "lon": 80.61,
+        "state": "Madhya Pradesh",
+        "category": "Tiger Reserve",
+        "fact": "Revived the hard-ground swamp deer (Barasingha - Mascot Bhoorsingh) from brink of extinction."
+      },
+      {
+        "name": "Hemis",
+        "lat": 34.0,
+        "lon": 77.2,
+        "state": "Ladakh",
+        "category": "National Park",
+        "fact": "India's largest national park (>4400 sq km), renowned high-altitude home of the elusive Snow Leopard."
+      },
+      {
+        "name": "Silent Valley",
+        "lat": 11.08,
+        "lon": 76.43,
+        "state": "Kerala",
+        "category": "National Park",
+        "fact": "Tropical evergreen rainforest in Kundali hills saved from hydel project; home to Lion-tailed Macaque."
+      },
+      {
+        "name": "Namdapha",
+        "lat": 27.49,
+        "lon": 96.38,
+        "state": "Arunachal Pradesh",
+        "category": "Tiger Reserve",
+        "fact": "Only park with 4 big cats: Tiger, Leopard, Snow Leopard, and Clouded Leopard (Mishmi hills)."
+      },
+      {
+        "name": "Desert National Park",
+        "lat": 26.91,
+        "lon": 70.9,
+        "state": "Rajasthan",
+        "category": "National Park",
+        "fact": "Thar desert ecosystem and critical breeding ground of the Critically Endangered Great Indian Bustard."
+      },
+      {
+        "name": "Simlipal",
+        "lat": 21.86,
+        "lon": 86.34,
+        "state": "Odisha",
+        "category": "Tiger Reserve",
+        "fact": "Mayurbhanj biosphere reserve famous for unique melanistic (pseudo-melanistic black) tigers."
+      },
+      {
+        "name": "Nokrek",
+        "lat": 25.49,
+        "lon": 90.31,
+        "state": "Meghalaya",
+        "category": "National Park",
+        "fact": "Garo Hills core biosphere reserve protecting gene sanctuary for wild Citrus indica."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which Indian national park is the only place in the world harboring four pantherine big cat species?",
+        "correct": "Namdapha National Park",
+        "wrong": [
+          "Kaziranga",
+          "Jim Corbett",
+          "Kanha National Park"
+        ],
+        "explanation": "Namdapha in Arunachal Pradesh hosts Tiger, Leopard, Snow Leopard and Clouded Leopard across altitudinal zones."
+      },
+      {
+        "question": "The 'Bhoorsingh the Barasingha' is the official mascot of which national park?",
+        "correct": "Kanha National Park",
+        "wrong": [
+          "Ranthambore",
+          "Bandhavgarh",
+          "Pench National Park"
+        ],
+        "explanation": "Kanha was the first tiger reserve in India to officially introduce a mascot to raise conservation awareness."
+      },
+      {
+        "question": "Which river flows through the heart of Jim Corbett National Park?",
+        "correct": "Ramganga",
+        "wrong": [
+          "Ganga",
+          "Alaknanda",
+          "Kosi"
+        ],
+        "explanation": "The Ramganga river and its tributaries form the central catchment of Corbett."
+      }
+    ]
+  },
+  {
+    "id": "biosphere_reserves",
+    "title": "Biosphere Reserves",
+    "emoji": "\ud83c\udf3f",
+    "color": "#059669",
+    "syllabus": "GS3 \u00b7 Environment \u00b7 MAB Programme",
+    "noun": "biosphere reserve",
+    "blurb": "UNESCO Man and the Biosphere (MAB) reserves and representative ecosystems.",
+    "categories": [
+      "UNESCO WNBR Recognized",
+      "National Biosphere Reserve"
+    ],
+    "places": [
+      {
+        "name": "Nilgiri",
+        "lat": 11.55,
+        "lon": 76.5,
+        "state": "Tamil Nadu",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "First biosphere reserve designated in India (1986); tri-junction of TN, Kerala and Karnataka."
+      },
+      {
+        "name": "Nanda Devi",
+        "lat": 30.4,
+        "lon": 79.8,
+        "state": "Uttarakhand",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Himalayan reserve encompassing Rishi Ganga gorge and Valley of Flowers National Park."
+      },
+      {
+        "name": "Gulf of Mannar",
+        "lat": 9.15,
+        "lon": 79.2,
+        "state": "Tamil Nadu",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Southeast Asia's first marine biosphere reserve, sanctuary for the vulnerable Dugong (sea cow)."
+      },
+      {
+        "name": "Sundarbans",
+        "lat": 21.8,
+        "lon": 88.9,
+        "state": "West Bengal",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Tidal mangrove ecosystem in the Ganges-Brahmaputra delta, tiger conservation zone."
+      },
+      {
+        "name": "Nokrek",
+        "lat": 25.48,
+        "lon": 90.32,
+        "state": "Meghalaya",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Core zone in Garo Hills preserving wild progenitor species of modern citrus fruits."
+      },
+      {
+        "name": "Pachmarhi",
+        "lat": 22.46,
+        "lon": 78.43,
+        "state": "Madhya Pradesh",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Satpura Range ecosystem featuring deep ravines, Sal forests, and endemic Indian Giant Squirrel."
+      },
+      {
+        "name": "Simlipal",
+        "lat": 21.85,
+        "lon": 86.35,
+        "state": "Odisha",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Red silk cotton tree haven in Mayurbhanj, home to Santhal tribes and elephant corridors."
+      },
+      {
+        "name": "Achanakmar-Amarkantak",
+        "lat": 22.65,
+        "lon": 81.75,
+        "state": "Chhattisgarh",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Maikal hills junction of Vindhyas and Satpuras, watershed source of Narmada, Son and Johilla."
+      },
+      {
+        "name": "Great Nicobar",
+        "lat": 7.0,
+        "lon": 93.8,
+        "state": "Andaman & Nicobar Islands",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Southernmost biosphere reserve, home to Shompen indigenous people and Nicobar Megapode."
+      },
+      {
+        "name": "Agasthyamala",
+        "lat": 8.61,
+        "lon": 77.24,
+        "state": "Kerala",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Western Ghats biome in Kerala and TN, traditional homeland of the Kani tribal community."
+      },
+      {
+        "name": "Khangchendzonga",
+        "lat": 27.7,
+        "lon": 88.2,
+        "state": "Sikkim",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "High-altitude Himalayan biome containing Zemu glacier and sacred Tibetan Buddhist sites."
+      },
+      {
+        "name": "Panna",
+        "lat": 24.72,
+        "lon": 80.2,
+        "state": "Madhya Pradesh",
+        "category": "UNESCO WNBR Recognized",
+        "fact": "Vindhyan belt reserve on Ken river; successfully reintroduced tigers after local extirpation."
+      },
+      {
+        "name": "Cold Desert",
+        "lat": 32.1,
+        "lon": 77.9,
+        "state": "Himachal Pradesh",
+        "category": "National Biosphere Reserve",
+        "fact": "Trans-Himalayan cold desert including Pin Valley National Park and Kibber Wildlife Sanctuary."
+      },
+      {
+        "name": "Dehang-Dibang",
+        "lat": 28.5,
+        "lon": 95.0,
+        "state": "Arunachal Pradesh",
+        "category": "National Biosphere Reserve",
+        "fact": "Eastern Himalayan reserve encompassing Siang and Dibang river valleys with Takin."
+      },
+      {
+        "name": "Great Rann of Kutch",
+        "lat": 23.8,
+        "lon": 70.0,
+        "state": "Gujarat",
+        "category": "National Biosphere Reserve",
+        "fact": "Largest biosphere reserve in India by area, famous for seasonal salt desert and Indian Wild Ass."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which was the first Biosphere Reserve to be designated in India under the UNESCO MAB framework?",
+        "correct": "Nilgiri Biosphere Reserve",
+        "wrong": [
+          "Sundarbans",
+          "Gulf of Mannar",
+          "Nanda Devi"
+        ],
+        "explanation": "Nilgiri was established in 1986 and was the first in India to be inducted into the World Network of Biosphere Reserves in 2000."
+      },
+      {
+        "question": "Which Indian biosphere reserve is home to the primitive hunter-gatherer Shompen tribe?",
+        "correct": "Great Nicobar Biosphere Reserve",
+        "wrong": [
+          "Little Andaman",
+          "Gulf of Mannar",
+          "Simlipal"
+        ],
+        "explanation": "The Shompen are an indigenous Particularly Vulnerable Tribal Group (PVTG) native to Great Nicobar Island."
+      },
+      {
+        "question": "The Ken-Betwa river linking project intersects which tiger reserve and biosphere reserve?",
+        "correct": "Panna Biosphere Reserve",
+        "wrong": [
+          "Bandhavgarh",
+          "Kanha",
+          "Achanakmar"
+        ],
+        "explanation": "The Daudhan dam of Ken-Betwa link submerges portions of the core habitat of Panna Tiger Reserve."
+      }
+    ]
+  },
+  {
+    "id": "ramsar_wetlands",
+    "title": "Ramsar Wetlands",
+    "emoji": "\ud83e\udeb7",
+    "color": "#0891B2",
+    "syllabus": "GS3 \u00b7 Environment \u00b7 Wetland Ecology",
+    "noun": "Ramsar wetland",
+    "blurb": "Wetlands of international importance under the Ramsar Convention.",
+    "categories": [
+      "Coastal Wetland",
+      "Inland Lake Wetland",
+      "High Altitude Wetland"
+    ],
+    "places": [
+      {
+        "name": "Chilika Lake",
+        "lat": 19.7,
+        "lon": 85.3,
+        "state": "Odisha",
+        "category": "Coastal Wetland",
+        "fact": "First Indian Ramsar site (1981); Asia's largest brackish lagoon hosting Irrawaddy dolphins."
+      },
+      {
+        "name": "Keoladeo Ghana",
+        "lat": 27.16,
+        "lon": 77.52,
+        "state": "Rajasthan",
+        "category": "Inland Lake Wetland",
+        "fact": "Man-made wetland on Gambhir and Banganga rivers; Montreux Record site."
+      },
+      {
+        "name": "Loktak Lake",
+        "lat": 24.55,
+        "lon": 93.8,
+        "state": "Manipur",
+        "category": "Inland Lake Wetland",
+        "fact": "Pumdi-rich freshwater lake; hosts world's only floating national park (Keibul Lamjao)."
+      },
+      {
+        "name": "Wular Lake",
+        "lat": 34.33,
+        "lon": 74.58,
+        "state": "Jammu & Kashmir",
+        "category": "Inland Lake Wetland",
+        "fact": "One of Asia's largest freshwater lakes formed by tectonic activity on the Jhelum river."
+      },
+      {
+        "name": "Sambhar Lake",
+        "lat": 26.9,
+        "lon": 75.0,
+        "state": "Rajasthan",
+        "category": "Inland Lake Wetland",
+        "fact": "India's largest inland saline lake; key wintering area for tens of thousands of flamingos."
+      },
+      {
+        "name": "Vembanad-Kol",
+        "lat": 9.6,
+        "lon": 76.4,
+        "state": "Kerala",
+        "category": "Coastal Wetland",
+        "fact": "Longest lake in India (96 km), fed by 10 rivers; hosts the Nehru Trophy Snake Boat Race."
+      },
+      {
+        "name": "Renuka Lake",
+        "lat": 30.6,
+        "lon": 77.45,
+        "state": "Himachal Pradesh",
+        "category": "Inland Lake Wetland",
+        "fact": "Smallest Ramsar wetland in India (area ~0.2 sq km) dedicated to Goddess Renuka."
+      },
+      {
+        "name": "Tsomoriri",
+        "lat": 32.9,
+        "lon": 78.3,
+        "state": "Ladakh",
+        "category": "High Altitude Wetland",
+        "fact": "Brackish trans-Himalayan lake at 4595m altitude, breeding ground of Black-necked Crane."
+      },
+      {
+        "name": "Bhoj Wetland",
+        "lat": 23.25,
+        "lon": 77.35,
+        "state": "Madhya Pradesh",
+        "category": "Inland Lake Wetland",
+        "fact": "Consists of Upper Lake (Bada Talab constructed by Raja Bhoj) and Lower Lake."
+      },
+      {
+        "name": "Deepor Beel",
+        "lat": 26.13,
+        "lon": 91.66,
+        "state": "Assam",
+        "category": "Inland Lake Wetland",
+        "fact": "Perennial freshwater lake and former channel of the Brahmaputra near Guwahati."
+      },
+      {
+        "name": "Kolleru Lake",
+        "lat": 16.65,
+        "lon": 81.33,
+        "state": "Andhra Pradesh",
+        "category": "Inland Lake Wetland",
+        "fact": "Located between Krishna and Godavari deltas; fed by Tammileru and Budameru streams."
+      },
+      {
+        "name": "Point Calimere",
+        "lat": 10.3,
+        "lon": 79.85,
+        "state": "Tamil Nadu",
+        "category": "Coastal Wetland",
+        "fact": "Coastal tip of Cauvery delta with saline swamps, mangroves, and flamingos."
+      },
+      {
+        "name": "Harike Wetland",
+        "lat": 31.15,
+        "lon": 74.95,
+        "state": "Punjab",
+        "category": "Inland Lake Wetland",
+        "fact": "Deep freshwater wetland created at the confluence of the Beas and Satluj rivers (Indira Gandhi Canal origin)."
+      },
+      {
+        "name": "Bhitarkanika Mangroves",
+        "lat": 20.72,
+        "lon": 86.86,
+        "state": "Odisha",
+        "category": "Coastal Wetland",
+        "fact": "Second largest mangrove ecosystem in India; prime breeding ground of Saltwater Crocodiles and Olive Ridley turtles."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which two Indian Ramsar wetlands are currently listed on the Montreux Record?",
+        "correct": "Keoladeo National Park & Loktak Lake",
+        "wrong": [
+          "Chilika Lake & Wular Lake",
+          "Sambhar Lake & Vembanad",
+          "Harike & Bhoj"
+        ],
+        "explanation": "The Montreux Record highlights wetlands where ecological character changes have occurred or are likely. Chilika was removed from the list after successful restoration."
+      },
+      {
+        "question": "The Indira Gandhi Canal (Rajasthan Canal) originates from which Ramsar wetland?",
+        "correct": "Harike Wetland",
+        "wrong": [
+          "Sambhar Lake",
+          "Pong Dam",
+          "Ropar Wetland"
+        ],
+        "explanation": "The canal originates from the Harike Barrage at the confluence of the Satluj and Beas rivers in Punjab."
+      },
+      {
+        "question": "The unique floating heterogeneous biomass known as 'Phumdis' is characteristic of which wetland?",
+        "correct": "Loktak Lake",
+        "wrong": [
+          "Wular Lake",
+          "Deepor Beel",
+          "Rudrasagar Lake"
+        ],
+        "explanation": "Phumdis are floating masses of soil, vegetation and organic matter exclusive to Loktak Lake in Manipur."
+      }
+    ]
+  },
+  {
+    "id": "unesco_heritage",
+    "title": "UNESCO World Heritage Sites",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "color": "#CA8A04",
+    "syllabus": "GS1 \u00b7 Art & Culture \u00b7 Monuments & Heritage",
+    "noun": "heritage site",
+    "blurb": "Monuments, architectural masterpieces, and pristine natural biomes.",
+    "categories": [
+      "Cultural Site",
+      "Natural Site",
+      "Mixed Site"
+    ],
+    "places": [
+      {
+        "name": "Ajanta Caves",
+        "lat": 20.552,
+        "lon": 75.703,
+        "state": "Maharashtra",
+        "category": "Cultural Site",
+        "fact": "29 rock-cut Buddhist cave monuments in Waghora gorge renowned for mural paintings."
+      },
+      {
+        "name": "Ellora Caves",
+        "lat": 20.026,
+        "lon": 75.179,
+        "state": "Maharashtra",
+        "category": "Cultural Site",
+        "fact": "Monumental rock-cut temples (Buddhist, Hindu, Jain) featuring the monolithic Kailasa temple (Cave 16)."
+      },
+      {
+        "name": "Taj Mahal",
+        "lat": 27.175,
+        "lon": 78.042,
+        "state": "Uttar Pradesh",
+        "category": "Cultural Site",
+        "fact": "White marble mausoleum commissioned in 1632 by Mughal Emperor Shah Jahan on Yamuna bank."
+      },
+      {
+        "name": "Hampi",
+        "lat": 15.335,
+        "lon": 76.46,
+        "state": "Karnataka",
+        "category": "Cultural Site",
+        "fact": "Ruins of the magnificent capital city of the Vijayanagara Empire on the Tungabhadra river."
+      },
+      {
+        "name": "Khajuraho",
+        "lat": 24.831,
+        "lon": 79.919,
+        "state": "Madhya Pradesh",
+        "category": "Cultural Site",
+        "fact": "Group of Nagara-style Hindu and Jain temples built between 950-1050 AD by the Chandela dynasty."
+      },
+      {
+        "name": "Sun Temple Konark",
+        "lat": 19.887,
+        "lon": 86.094,
+        "state": "Odisha",
+        "category": "Cultural Site",
+        "fact": "Colossal 13th-century chariot of Surya with 24 carved wheels built by King Narasimhadeva I."
+      },
+      {
+        "name": "Group of Monuments at Mahabalipuram",
+        "lat": 12.626,
+        "lon": 80.192,
+        "state": "Tamil Nadu",
+        "category": "Cultural Site",
+        "fact": "Pallava sanctuary of monolithic rathas, bas-relief 'Descent of the Ganga', and the Shore Temple."
+      },
+      {
+        "name": "Fatehpur Sikri",
+        "lat": 27.094,
+        "lon": 77.667,
+        "state": "Uttar Pradesh",
+        "category": "Cultural Site",
+        "fact": "Short-lived capital of Emperor Akbar featuring the monumental Buland Darwaza and Panch Mahal."
+      },
+      {
+        "name": "Khangchendzonga National Park",
+        "lat": 27.66,
+        "lon": 88.18,
+        "state": "Sikkim",
+        "category": "Mixed Site",
+        "fact": "India's first and only 'Mixed' World Heritage site (recognized for natural beauty and sacred Beyul cultural traditions)."
+      },
+      {
+        "name": "Dholavira",
+        "lat": 23.886,
+        "lon": 70.213,
+        "state": "Gujarat",
+        "category": "Cultural Site",
+        "fact": "Harappan city in Khadir Bet island with sophisticated multistage water reservoirs and stadium."
+      },
+      {
+        "name": "Kakatiya Rudreshwara (Ramappa)",
+        "lat": 18.261,
+        "lon": 79.943,
+        "state": "Telangana",
+        "category": "Cultural Site",
+        "fact": "Medieval Kakatiya Shiva temple built using lightweight floating porous bricks on a sandbox foundation."
+      },
+      {
+        "name": "Santiniketan",
+        "lat": 23.68,
+        "lon": 87.68,
+        "state": "West Bengal",
+        "category": "Cultural Site",
+        "fact": "Residential school and university established in 1901 by Nobel laureate Rabindranath Tagore."
+      },
+      {
+        "name": "Sacred Ensembles of the Hoysalas",
+        "lat": 13.16,
+        "lon": 75.86,
+        "state": "Karnataka",
+        "category": "Cultural Site",
+        "fact": "Stellate (star-shaped) chloritic schist temples of Belur, Halebid, and Somanathapura (12th-13th century)."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which is the only site in India inscribed under UNESCO's 'Mixed' heritage category?",
+        "correct": "Khangchendzonga National Park",
+        "wrong": [
+          "Western Ghats",
+          "Manas Wildlife Sanctuary",
+          "Nanda Devi"
+        ],
+        "explanation": "Khangchendzonga was inscribed in 2016 for its exceptional ecological biodiversity and sacred cultural landscape in Sikkimese Buddhism."
+      },
+      {
+        "question": "What engineering ingenuity distinguishes the construction of the Ramappa Temple in Telangana?",
+        "correct": "Sandbox foundation and floating lightweight bricks",
+        "wrong": [
+          "Interlocking copper clamps",
+          "Mortar made of crushed sea shells",
+          "Monolithic carving out of basalt rock"
+        ],
+        "explanation": "Ramappa temple's roof superstructure utilizes lightweight clay bricks that float on water, resting on sandbox foundations that absorb seismic shock."
+      },
+      {
+        "question": "The megalithic stone chariot at Vijaya Vittala temple is an iconic symbol of which UNESCO site?",
+        "correct": "Hampi",
+        "wrong": [
+          "Pattadakal",
+          "Mahabalipuram",
+          "Khajuraho"
+        ],
+        "explanation": "The stone chariot at Hampi is dedicated to Garuda within the Vittala temple complex."
+      }
+    ]
+  },
+  {
+    "id": "lakes_lagoons",
+    "title": "Lakes & Lagoons of India",
+    "emoji": "\ud83d\udca7",
+    "color": "#0284C7",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Geomorphology & Drainage",
+    "noun": "lake / lagoon",
+    "blurb": "Crater, tectonic, glacial, and coastal water bodies across physiographic zones.",
+    "categories": [
+      "Tectonic / Fluvial Lake",
+      "Lagoon / Coastal Lake",
+      "Crater / Endorheic Lake",
+      "Glacial / High Altitude"
+    ],
+    "places": [
+      {
+        "name": "Lonar Lake",
+        "lat": 19.976,
+        "lon": 76.507,
+        "state": "Maharashtra",
+        "category": "Crater / Endorheic Lake",
+        "fact": "Geo-heritage hyper-velocity impact crater formed in Deccan basalt 50,000 years ago; saline-alkaline water."
+      },
+      {
+        "name": "Pulicat Lake",
+        "lat": 13.67,
+        "lon": 80.2,
+        "state": "Andhra Pradesh",
+        "category": "Lagoon / Coastal Lake",
+        "fact": "Second largest brackish lagoon in India, separated from the Bay of Bengal by Sriharikota barrier island."
+      },
+      {
+        "name": "Chilika Lake",
+        "lat": 19.72,
+        "lon": 85.32,
+        "state": "Odisha",
+        "category": "Lagoon / Coastal Lake",
+        "fact": "Largest brackish water lagoon in India; fed by Daya river, open to Bay of Bengal via channel."
+      },
+      {
+        "name": "Loktak Lake",
+        "lat": 24.55,
+        "lon": 93.79,
+        "state": "Manipur",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Largest natural freshwater lake in Northeast India, famed for round floating phumdi masses."
+      },
+      {
+        "name": "Wular Lake",
+        "lat": 34.35,
+        "lon": 74.55,
+        "state": "Jammu & Kashmir",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Largest freshwater lake in India formed by tectonic activity on the Jhelum river basin."
+      },
+      {
+        "name": "Dal Lake",
+        "lat": 34.11,
+        "lon": 74.87,
+        "state": "Jammu & Kashmir",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Urban lake in Srinagar renowned for houseboats, shikaras, and floating vegetable gardens (Radh)."
+      },
+      {
+        "name": "Pangong Tso",
+        "lat": 33.75,
+        "lon": 78.9,
+        "state": "Ladakh",
+        "category": "Crater / Endorheic Lake",
+        "fact": "World's highest saltwater lake (4350m); endorheic lake extending from Ladakh into Tibet."
+      },
+      {
+        "name": "Sambhar Lake",
+        "lat": 26.92,
+        "lon": 75.02,
+        "state": "Rajasthan",
+        "category": "Crater / Endorheic Lake",
+        "fact": "Shallow saline playa fed by Mendha, Runpangarh, Khari and Khandel rivers in the Aravallis."
+      },
+      {
+        "name": "Tso Kar",
+        "lat": 33.3,
+        "lon": 78.0,
+        "state": "Ladakh",
+        "category": "Crater / Endorheic Lake",
+        "fact": "Fluctuating white hypersaline lake known for extensive efflorescence of borax and salt deposits."
+      },
+      {
+        "name": "Vembanad Lake",
+        "lat": 9.6,
+        "lon": 76.38,
+        "state": "Kerala",
+        "category": "Lagoon / Coastal Lake",
+        "fact": "Spans three Kerala districts; famous for Thanneermukkom saltwater barrage separating sweet and saltwater."
+      },
+      {
+        "name": "Sasthamkotta Lake",
+        "lat": 9.04,
+        "lon": 76.63,
+        "state": "Kerala",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Queen of Lakes in Kollam; largest freshwater lake in Kerala containing larva of Chaoborus insects."
+      },
+      {
+        "name": "Hussain Sagar",
+        "lat": 17.424,
+        "lon": 78.474,
+        "state": "Telangana",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Heart-shaped artificial lake built in 1563 by Ibrahim Qutb Shah on a Musi river tributary."
+      },
+      {
+        "name": "Jaisamand Lake (Dhebar)",
+        "lat": 24.24,
+        "lon": 74.0,
+        "state": "Rajasthan",
+        "category": "Tectonic / Fluvial Lake",
+        "fact": "Historic artificial freshwater lake built by Maharana Jai Singh in 1685 across the Gomati river."
+      },
+      {
+        "name": "Chandra Taal",
+        "lat": 32.48,
+        "lon": 77.62,
+        "state": "Himachal Pradesh",
+        "category": "Glacial / High Altitude",
+        "fact": "Crescent-shaped high-altitude lake in Spiti valley situated at the source of Chandra river."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which unique geological lake in India was created by a meteorite collision in basaltic bedrock?",
+        "correct": "Lonar Lake",
+        "wrong": [
+          "Wular Lake",
+          "Chandra Taal",
+          "Sambhar Lake"
+        ],
+        "explanation": "Lonar in Buldhana district of Maharashtra is the world's only known hyper-velocity impact crater in basaltic rock."
+      },
+      {
+        "question": "The Thanneermukkom Bund was constructed in which major water body to regulate saltwater intrusion?",
+        "correct": "Vembanad Lake",
+        "wrong": [
+          "Pulicat Lake",
+          "Chilika Lake",
+          "Ashtamudi Lake"
+        ],
+        "explanation": "The Thanneermukkom salt water barrier divides Vembanad into a freshwater southern half and brackish northern half."
+      },
+      {
+        "question": "Which barrier island separates the Pulicat brackish lagoon from the Bay of Bengal?",
+        "correct": "Sriharikota Island",
+        "wrong": [
+          "Wheeler (Abdul Kalam) Island",
+          "Willingdon Island",
+          "Hope Island"
+        ],
+        "explanation": "Sriharikota barrier island shelters Pulicat lake and houses ISRO's Satish Dhawan Space Centre."
+      }
+    ]
+  },
+  {
+    "id": "mountain_passes",
+    "title": "Mountain Passes",
+    "emoji": "\ud83c\udfd4\ufe0f",
+    "color": "#64748B",
+    "syllabus": "GS1 \u00b7 Physical Geography \u00b7 Himalayan Orogeny",
+    "noun": "pass",
+    "blurb": "Strategic mountain gateways across the Himalayas and the Western Ghats.",
+    "categories": [
+      "Western Himalaya / Ladakh",
+      "Central / Himachal-Uttarakhand",
+      "Eastern / Northeast",
+      "Peninsular Ghats"
+    ],
+    "places": [
+      {
+        "name": "Zoji La",
+        "lat": 34.28,
+        "lon": 75.5,
+        "state": "Ladakh",
+        "category": "Western Himalaya / Ladakh",
+        "fact": "High mountain pass on Great Himalayas connecting Srinagar with Kargil and Leh on NH-1."
+      },
+      {
+        "name": "Khardung La",
+        "lat": 34.279,
+        "lon": 77.605,
+        "state": "Ladakh",
+        "category": "Western Himalaya / Ladakh",
+        "fact": "Pass across the Ladakh Range forming the gateway to Shyok and Nubra valleys and Siachen Glacier."
+      },
+      {
+        "name": "Banihal Pass",
+        "lat": 33.51,
+        "lon": 75.19,
+        "state": "Jammu & Kashmir",
+        "category": "Western Himalaya / Ladakh",
+        "fact": "Pir Panjal pass pierced by Jawahar Tunnel connecting Jammu plain with Kashmir Valley."
+      },
+      {
+        "name": "Rohtang Pass",
+        "lat": 32.37,
+        "lon": 77.24,
+        "state": "Himachal Pradesh",
+        "category": "Central / Himachal-Uttarakhand",
+        "fact": "Pir Panjal pass connecting Kullu Valley with Lahaul and Spiti; bypassed by the Atal Tunnel."
+      },
+      {
+        "name": "Shipki La",
+        "lat": 31.81,
+        "lon": 78.75,
+        "state": "Himachal Pradesh",
+        "category": "Central / Himachal-Uttarakhand",
+        "fact": "Indo-China border pass through which the Satluj river enters India from Tibet."
+      },
+      {
+        "name": "Lipulekh Pass",
+        "lat": 30.23,
+        "lon": 80.93,
+        "state": "Uttarakhand",
+        "category": "Central / Himachal-Uttarakhand",
+        "fact": "Tri-junction pass between India, Nepal and Tibet; historic pilgrimage route to Kailash-Mansarovar."
+      },
+      {
+        "name": "Mana Pass",
+        "lat": 31.06,
+        "lon": 79.42,
+        "state": "Uttarakhand",
+        "category": "Central / Himachal-Uttarakhand",
+        "fact": "High pass in Zaskar Range near Badrinath; highest motorable roadway pass in the world."
+      },
+      {
+        "name": "Niti Pass",
+        "lat": 30.96,
+        "lon": 79.88,
+        "state": "Uttarakhand",
+        "category": "Central / Himachal-Uttarakhand",
+        "fact": "Connects Uttarakhand with Tibet through Dhauli Ganga valley in Nanda Devi Biosphere."
+      },
+      {
+        "name": "Nathu La",
+        "lat": 27.386,
+        "lon": 88.831,
+        "state": "Sikkim",
+        "category": "Eastern / Northeast",
+        "fact": "Historic Silk Road pass connecting Sikkim with Tibet's Chumbi Valley, reopened for trade in 2006."
+      },
+      {
+        "name": "Jelep La",
+        "lat": 27.36,
+        "lon": 88.88,
+        "state": "Sikkim",
+        "category": "Eastern / Northeast",
+        "fact": "Pass leading directly through the Chumbi Valley linking Kalimpong and Lhasa."
+      },
+      {
+        "name": "Bomdi La",
+        "lat": 27.26,
+        "lon": 92.42,
+        "state": "Arunachal Pradesh",
+        "category": "Eastern / Northeast",
+        "fact": "Connects Tezpur in Assam with Tawang in northwestern Arunachal Pradesh."
+      },
+      {
+        "name": "Diphu Pass",
+        "lat": 28.18,
+        "lon": 97.4,
+        "state": "Arunachal Pradesh",
+        "category": "Eastern / Northeast",
+        "fact": "Tri-junction pass between India, China, and Myanmar on the McMahon Line."
+      },
+      {
+        "name": "Pangsau Pass",
+        "lat": 27.25,
+        "lon": 96.15,
+        "state": "Arunachal Pradesh",
+        "category": "Eastern / Northeast",
+        "fact": "Patkai Hills pass on India-Myanmar border crossed by the World War II Stilwell (Ledo) Road."
+      },
+      {
+        "name": "Bhor Ghat",
+        "lat": 18.78,
+        "lon": 73.36,
+        "state": "Maharashtra",
+        "category": "Peninsular Ghats",
+        "fact": "Western Ghats mountain pass connecting Mumbai with Pune on the Deccan plateau."
+      },
+      {
+        "name": "Thal Ghat (Kasara)",
+        "lat": 19.7,
+        "lon": 73.49,
+        "state": "Maharashtra",
+        "category": "Peninsular Ghats",
+        "fact": "Pass connecting Mumbai with Nashik and northern India via Central Railway and NH-3."
+      },
+      {
+        "name": "Palakkad Gap",
+        "lat": 10.78,
+        "lon": 76.65,
+        "state": "Kerala",
+        "category": "Peninsular Ghats",
+        "fact": "Major 30-km natural tectonic break in the Western Ghats between Nilgiri Hills and Anaimalai Hills."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Through which Himalayan mountain pass does the Satluj River enter Indian territory from Tibet?",
+        "correct": "Shipki La",
+        "wrong": [
+          "Nathu La",
+          "Lipulekh",
+          "Rohtang Pass"
+        ],
+        "explanation": "The Satluj cuts through the Zaskar range and enters Kinnaur district of Himachal Pradesh at Shipki La."
+      },
+      {
+        "question": "Which mountain pass links the Kashmir Valley with the Jammu plains through the Pir Panjal range?",
+        "correct": "Banihal Pass",
+        "wrong": [
+          "Zoji La",
+          "Khardung La",
+          "Burzil Pass"
+        ],
+        "explanation": "Banihal Pass connects Jammu with Srinagar; the historic Jawahar Tunnel and the new Banihal-Qazigund railway tunnel traverse it."
+      },
+      {
+        "question": "The Palakkad Gap in the Western Ghats provides transport connectivity between which two regions?",
+        "correct": "Kerala and Tamil Nadu",
+        "wrong": [
+          "Maharashtra and Goa",
+          "Karnataka and Kerala",
+          "Andhra Pradesh and Odisha"
+        ],
+        "explanation": "The Palakkad Gap is a low mountain pass linking Palakkad in Kerala with Coimbatore in Tamil Nadu."
+      }
+    ]
+  },
+  {
+    "id": "mountain_peaks",
+    "title": "Mountain Peaks of India",
+    "emoji": "\u26f0\ufe0f",
+    "color": "#334155",
+    "syllabus": "GS1 \u00b7 Geography \u00b7 Physiography",
+    "noun": "peak",
+    "blurb": "Highest summits of the Himalayas, Karakoram, Purvanchal and Peninsular ranges.",
+    "categories": [
+      "Himalayas / Karakoram",
+      "Peninsular India",
+      "Northeast & Islands"
+    ],
+    "places": [
+      {
+        "name": "Kangchenjunga",
+        "lat": 27.702,
+        "lon": 88.147,
+        "state": "Sikkim",
+        "category": "Himalayas / Karakoram",
+        "fact": "World's 3rd highest peak (8,586 m) located on the border between Sikkim and Nepal."
+      },
+      {
+        "name": "Nanda Devi",
+        "lat": 30.375,
+        "lon": 79.97,
+        "state": "Uttarakhand",
+        "category": "Himalayas / Karakoram",
+        "fact": "Highest mountain peak situated entirely within undisputed Indian territory (7,816 m)."
+      },
+      {
+        "name": "Kamet",
+        "lat": 30.92,
+        "lon": 79.57,
+        "state": "Uttarakhand",
+        "category": "Himalayas / Karakoram",
+        "fact": "Second highest peak in Garhwal Himalayas (7,756 m) located in Chamoli district."
+      },
+      {
+        "name": "Saltoro Kangri",
+        "lat": 35.25,
+        "lon": 77.05,
+        "state": "Ladakh",
+        "category": "Himalayas / Karakoram",
+        "fact": "High peak of the Saltoro Range (7,742 m) towering over the Siachen Glacier area."
+      },
+      {
+        "name": "Anamudi",
+        "lat": 10.17,
+        "lon": 77.06,
+        "state": "Kerala",
+        "category": "Peninsular India",
+        "fact": "Highest peak in South India and the Western Ghats (2,695 m), located in Eravikulam National Park."
+      },
+      {
+        "name": "Doddabetta",
+        "lat": 11.4,
+        "lon": 76.73,
+        "state": "Tamil Nadu",
+        "category": "Peninsular India",
+        "fact": "Highest summit of the Nilgiri Hills (2,637 m) near Ooty junction of Eastern and Western Ghats."
+      },
+      {
+        "name": "Guru Shikhar",
+        "lat": 24.65,
+        "lon": 72.78,
+        "state": "Rajasthan",
+        "category": "Peninsular India",
+        "fact": "Highest point of the ancient Aravalli Range (1,722 m) located on Mount Abu."
+      },
+      {
+        "name": "Dhupgarh",
+        "lat": 22.45,
+        "lon": 78.37,
+        "state": "Madhya Pradesh",
+        "category": "Peninsular India",
+        "fact": "Highest point of the Satpura Range and Madhya Pradesh (1,350 m) near Pachmarhi."
+      },
+      {
+        "name": "Kalsubai",
+        "lat": 19.6,
+        "lon": 73.71,
+        "state": "Maharashtra",
+        "category": "Peninsular India",
+        "fact": "Highest peak in Maharashtra (1,646 m) in the Sahyadri range of Western Ghats."
+      },
+      {
+        "name": "Arma Konda (Jindhagada)",
+        "lat": 18.23,
+        "lon": 82.9,
+        "state": "Andhra Pradesh",
+        "category": "Peninsular India",
+        "fact": "Highest mountain peak of the Eastern Ghats range (1,690 m) in Araku valley."
+      },
+      {
+        "name": "Mahendragiri",
+        "lat": 18.96,
+        "lon": 84.36,
+        "state": "Odisha",
+        "category": "Peninsular India",
+        "fact": "Prominent mythological peak in Gajapati district (1,501 m) in the Eastern Ghats."
+      },
+      {
+        "name": "Saramati",
+        "lat": 25.74,
+        "lon": 95.03,
+        "state": "Nagaland",
+        "category": "Northeast & Islands",
+        "fact": "Highest peak of the Purvanchal Hills (3,841 m) on the India-Myanmar border."
+      },
+      {
+        "name": "Phawngpui (Blue Mountain)",
+        "lat": 22.63,
+        "lon": 93.05,
+        "state": "Mizoram",
+        "category": "Northeast & Islands",
+        "fact": "Highest peak in Mizoram (2,157 m) revered by the Lai community."
+      },
+      {
+        "name": "Saddle Peak",
+        "lat": 13.16,
+        "lon": 93.01,
+        "state": "Andaman & Nicobar Islands",
+        "category": "Northeast & Islands",
+        "fact": "Highest point of the Andaman and Nicobar archipelago (732 m) in North Andaman Island."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which is the highest mountain peak located entirely within undisputed Indian borders?",
+        "correct": "Nanda Devi",
+        "wrong": [
+          "Kangchenjunga",
+          "K2 (Godwin Austen)",
+          "Kamet"
+        ],
+        "explanation": "Kangchenjunga straddles the Nepal-India border and K2 lies in Pakistan-occupied Kashmir; Nanda Devi (7,816 m) is entirely in Uttarakhand."
+      },
+      {
+        "question": "Which peak is recognized as the highest point in the entire Peninsular South India?",
+        "correct": "Anamudi",
+        "wrong": [
+          "Doddabetta",
+          "Agasthyamala",
+          "Mullayanagiri"
+        ],
+        "explanation": "Anamudi (2,695 m) in the Anaimalai Hills of Kerala is the highest summit south of the Himalayas."
+      },
+      {
+        "question": "Guru Shikhar on Mount Abu marks the highest culmination of which mountain system?",
+        "correct": "Aravalli Range",
+        "wrong": [
+          "Vindhya Range",
+          "Satpura Range",
+          "Western Ghats"
+        ],
+        "explanation": "Guru Shikhar (1,722 m) is the highest elevation of the fold mountain Aravalli system."
+      }
+    ]
+  },
+  {
+    "id": "ancient_sites",
+    "title": "Harappan & Ashokan Sites",
+    "emoji": "\ud83c\udffa",
+    "color": "#9A3412",
+    "syllabus": "GS1 \u00b7 Ancient Indian History \u00b7 Archaeology",
+    "noun": "ancient site",
+    "blurb": "Indus Valley civilization cities and Mauryan edicts, stupas, and pillars.",
+    "categories": [
+      "Harappan Civilization",
+      "Ashokan Inscription / Pillar",
+      "Early Historical Site"
+    ],
+    "places": [
+      {
+        "name": "Dholavira",
+        "lat": 23.886,
+        "lon": 70.213,
+        "state": "Gujarat",
+        "category": "Harappan Civilization",
+        "fact": "Tripartite Harappan city in Rann of Kutch with stone masonry, cascade reservoirs, and a 10-letter signboard."
+      },
+      {
+        "name": "Lothal",
+        "lat": 22.52,
+        "lon": 72.25,
+        "state": "Gujarat",
+        "category": "Harappan Civilization",
+        "fact": "Tidal dockyard port town on Bhogavo river with bead-making factory and terracotta sealings."
+      },
+      {
+        "name": "Kalibangan",
+        "lat": 29.47,
+        "lon": 74.13,
+        "state": "Rajasthan",
+        "category": "Harappan Civilization",
+        "fact": "Site on dried Ghaggar river showing earliest ploughed agricultural field and fire altars."
+      },
+      {
+        "name": "Rakhigarhi",
+        "lat": 29.28,
+        "lon": 76.11,
+        "state": "Haryana",
+        "category": "Harappan Civilization",
+        "fact": "Largest Harappan metropolis in India (Dhrishadvati basin) with genetic ancient DNA excavations."
+      },
+      {
+        "name": "Banawali",
+        "lat": 29.62,
+        "lon": 75.38,
+        "state": "Haryana",
+        "category": "Harappan Civilization",
+        "fact": "Exhibited radial street planning, terracotta model of a plough, and high proportion of barley."
+      },
+      {
+        "name": "Ropar (Rupnagar)",
+        "lat": 30.97,
+        "lon": 76.53,
+        "state": "Punjab",
+        "category": "Harappan Civilization",
+        "fact": "First site excavated in post-independence India; burial showing human skeleton with pet dog."
+      },
+      {
+        "name": "Alamgirpur",
+        "lat": 28.84,
+        "lon": 77.48,
+        "state": "Uttar Pradesh",
+        "category": "Harappan Civilization",
+        "fact": "Easternmost boundary site of the Indus Valley Civilization located on the Hindon river in Meerut."
+      },
+      {
+        "name": "Sarnath",
+        "lat": 25.38,
+        "lon": 83.02,
+        "state": "Uttar Pradesh",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Site of Buddha's first sermon (Dharmachakrapravartana); home of Ashoka's Lion Capital (National Emblem)."
+      },
+      {
+        "name": "Sanchi",
+        "lat": 23.48,
+        "lon": 77.74,
+        "state": "Madhya Pradesh",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Great Stupa commissioned by Ashoka with carved toranas (gateways) depicting Jataka tales."
+      },
+      {
+        "name": "Dhauli",
+        "lat": 20.19,
+        "lon": 85.85,
+        "state": "Odisha",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Site of the bloody Kalinga War on the Daya river; rock edict surmounted by the forepart of an elephant."
+      },
+      {
+        "name": "Jaugada",
+        "lat": 19.53,
+        "lon": 84.83,
+        "state": "Odisha",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Fortified Mauryan provincial center in Ganjam containing Ashoka's Separate Kalinga Edicts."
+      },
+      {
+        "name": "Maski",
+        "lat": 15.96,
+        "lon": 76.66,
+        "state": "Karnataka",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Minor Rock Edict site in Raichur where Emperor Ashoka is explicitly identified by his personal name."
+      },
+      {
+        "name": "Junagadh (Girnar)",
+        "lat": 21.52,
+        "lon": 70.46,
+        "state": "Gujarat",
+        "category": "Ashokan Inscription / Pillar",
+        "fact": "Rock carrying 14 Major Edicts of Ashoka, alongside later inscriptions of Rudradaman and Skandagupta (Sudarshana Lake)."
+      },
+      {
+        "name": "Kaushambi",
+        "lat": 25.33,
+        "lon": 81.38,
+        "state": "Uttar Pradesh",
+        "category": "Early Historical Site",
+        "fact": "Capital of Vatsa Mahajanapada on the Yamuna; source of the Ashokan schism pillar relocated to Allahabad Fort."
+      }
+    ],
+    "questions": [
+      {
+        "question": "At which archaeological site was an Ashokan Minor Rock Edict found confirming the name 'Asoka' alongside 'Devanampriya'?",
+        "correct": "Maski",
+        "wrong": [
+          "Sarnath",
+          "Dhauli",
+          "Girnar"
+        ],
+        "explanation": "Until Maski was discovered in 1915, inscriptions only used the title 'Devanampriya Priyadarsi'; Maski explicitly named 'Devanampriya Asoka'."
+      },
+      {
+        "question": "The presence of a sophisticated stepped tidal dockyard is the defining feature of which Harappan port city?",
+        "correct": "Lothal",
+        "wrong": [
+          "Dholavira",
+          "Surkotada",
+          "Kalibangan"
+        ],
+        "explanation": "Lothal in Gujarat features a massive burnt-brick tidal basin identified as a dockyard connected to the Gulf of Khambhat."
+      },
+      {
+        "question": "The rock inscription at Junagadh is famous for recounting the historic construction and repair of which reservoir?",
+        "correct": "Sudarshana Lake",
+        "wrong": [
+          "Bhojtal",
+          "Dhebar Lake",
+          "Pushkar Lake"
+        ],
+        "explanation": "Junagadh rock contains inscriptions of Ashoka, Saka ruler Rudradaman I, and Gupta emperor Skandagupta concerning the Sudarshana lake bund repairs."
+      }
+    ]
+  }
+]

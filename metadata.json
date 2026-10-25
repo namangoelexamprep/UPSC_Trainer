@@ -1,0 +1,7 @@
+{
+  "name": "UPSC Map Trainer",
+  "description": "Offline, interactive India map trainer and quiz app for UPSC Civil Services examination preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
