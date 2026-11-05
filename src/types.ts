@@ -105,6 +105,24 @@ export interface UserRewards {
   badges: Record<string, { unlocked: boolean; unlockedAt?: number; progress: number }>;
 }
 
+export interface DeepWorkSessionRecord {
+  id: string;
+  date: string; // YYYY-MM-DD
+  durationMinutes: number;
+  moduleName: string;
+  completedAt: number;
+  mode: 'POMODORO_25' | 'PRELIMS_45' | 'MAINS_60' | 'CUSTOM' | 'OPEN';
+  notes?: string;
+}
+
+export interface DailyFocusStats {
+  date: string;
+  totalMinutes: number;
+  targetMinutes: number;
+  sessionsCompleted: number;
+  modulesStudied: Record<string, number>; // moduleName -> minutes
+}
+
 export interface UPSCCoalStage {
   stage: string;
   carbon: string;
@@ -201,5 +219,128 @@ export interface UPSCPlaceDossier {
   fact3MainsAdvanced: string; // Unlocked on clicking Mains analysis
   upscRelevanceTag: string;
   distractors: string[]; // 3 other place names
+}
+
+export type PYQTheme =
+  | 'ALL'
+  | 'RIVERS_DRAINAGE'
+  | 'RIVERS_BASINS'
+  | 'PROTECTED_AREAS'
+  | 'ECOLOGY_PROTECTED'
+  | 'FORESTS_WILDLIFE'
+  | 'MINERALS_ENERGY'
+  | 'MOUNTAINS_PASSES'
+  | 'GLACIERS_PEAKS'
+  | 'PORTS_INFRA'
+  | 'PLACES_IN_NEWS'
+  | 'ISLANDS_COASTAL'
+  | 'OCEANS_COASTS'
+  | 'AGRICULTURE_SOILS'
+  | 'PHYSICAL_GEOLOGY';
+
+export interface PYQCoordinate {
+  placeName: string;
+  state: string;
+  lat: number;
+  lon: number;
+  topicId?: string;
+  note?: string;
+}
+
+export interface UPSCPYQuestion {
+  id: string;
+  year: number;
+  exam: 'Civil Services Prelims' | 'CDS' | 'CAPF';
+  theme: PYQTheme;
+  themeLabel: string;
+  questionText: string;
+  statements?: string[];
+  options: {
+    key: 'A' | 'B' | 'C' | 'D';
+    text: string;
+  }[];
+  correctOption: 'A' | 'B' | 'C' | 'D';
+  officialKeyNote: string;
+  eliminationTechnique: string;
+  detailedExplanation: string;
+  prelimsTrapAlert: string;
+  difficulty:
+    | 'Direct Recall'
+    | 'Standard Prelims'
+    | 'High-Difficulty Trap'
+    | 'Challenging'
+    | 'Challenging Prelims'
+    | 'Moderate Prelims'
+    | 'High-Yield Prelims'
+    | 'Fundamental Prelims';
+  associatedCoordinates: PYQCoordinate[];
+}
+
+export interface ExamSimulationResult {
+  totalQuestions: number;
+  attempted: number;
+  correct: number;
+  incorrect: number;
+  unattempted: number;
+  grossMarks: number;
+  negativePenalty: number;
+  netScore: number;
+  maxScore: number;
+  accuracyRate: number;
+  estimatedPercentile: number;
+  themeBreakdown: Record<string, { total: number; correct: number; incorrect: number }>;
+  timeSpentSeconds: number;
+}
+
+export interface MainsDiagramTemplate {
+  id: string;
+  title: string;
+  paper: 'GS Paper 1' | 'GS Paper 3' | 'GS Paper 1 & 3';
+  theme: string;
+  difficulty:
+    | 'Beginner (30s Outline)'
+    | 'Easy (1 min)'
+    | 'Intermediate (1 min)'
+    | 'Intermediate (1.5 mins)'
+    | 'Advanced (2 mins)';
+  prompt: string;
+  recommendedTimeSeconds: number;
+  keyChecklistItems: string[];
+  modelDiagramDescription: string;
+  referencePoints: { name: string; x: number; y: number; label: string }[];
+}
+
+export interface MainsModelAnswer {
+  id: string;
+  year: number;
+  paper: 'GS Paper 1' | 'GS Paper 3' | 'GS Paper 1 & 3';
+  topicTheme: string;
+  question: string;
+  wordLimit: 150 | 250;
+  marks: 10 | 15;
+  introduction: string;
+  coreBodyPoints: {
+    heading: string;
+    points: string[];
+  }[];
+  mapDiagramStrategy: string;
+  associatedCoordinates: PYQCoordinate[];
+  governmentSchemesAndPolicies: string[];
+  conclusion: string;
+  syllabusKeywords: string[];
+}
+
+export interface GeomorphologicalProvince {
+  id: string;
+  name: string;
+  division: 'Peninsular Plateau' | 'Himalayan Mountain System' | 'Indo-Gangetic Plain' | 'Coastal Plains' | 'Islands' | 'Great Indian Desert';
+  geologicalAge: string;
+  rockSystems: string[];
+  subDivisions: string[];
+  highestPeak?: { name: string; elevationMeters: number; lat: number; lon: number };
+  majorDrainageBasins: string[];
+  economicMinerals: string[];
+  prelimsHighYieldFacts: string[];
+  mainsSignificance: string;
 }
 

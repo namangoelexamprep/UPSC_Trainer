@@ -17,10 +17,12 @@ import {
   processRewardsAfterQuiz
 } from './utils/srsEngine';
 import { playFanfare } from './utils/soundEffects';
+import { PYQAtlasScreen } from './components/PYQAtlasScreen';
+import { MainsCompendiumModal } from './components/MainsCompendiumModal';
 import initialStates from './data/india_states.json';
 import initialTopics from './data/topics.json';
 
-type ActiveScreen = 'HOME' | 'TOPIC_MAP' | 'QUIZ' | 'RESULT';
+type ActiveScreen = 'HOME' | 'TOPIC_MAP' | 'QUIZ' | 'RESULT' | 'PYQ_ATLAS';
 
 const DEFAULT_REWARDS: UserRewards = {
   xp: 0,
@@ -66,6 +68,7 @@ export default function App() {
   const [showBadgesModal, setShowBadgesModal] = useState(false);
   const [showLeaderboardModal, setShowLeaderboardModal] = useState(false);
   const [showDidYouKnowPopup, setShowDidYouKnowPopup] = useState<boolean>(false);
+  const [showMainsCompendium, setShowMainsCompendium] = useState<boolean>(false);
 
   useEffect(() => {
     const initialTimer = setTimeout(() => {
@@ -87,26 +90,9 @@ export default function App() {
     return getDuePlaces(srsRecords, topics);
   }, [srsRecords, topics]);
 
-  // Load Data & LocalStorage with robust error recovery
+  // Load LocalStorage synchronously with robust error recovery (100% offline, zero network requests)
   useEffect(() => {
-    async function loadData() {
-      try {
-        const [statesRes, topicsRes] = await Promise.all([
-          fetch('/india_states.json'),
-          fetch('/topics.json')
-        ]);
-        if (statesRes.ok && topicsRes.ok) {
-          const statesData = await statesRes.json();
-          const topicsData = await topicsRes.json();
-          if (Array.isArray(statesData) && statesData.length > 0) setStates(statesData);
-          if (Array.isArray(topicsData) && topicsData.length > 0) setTopics(topicsData);
-        }
-      } catch (err) {
-        console.warn('Network asset fetch failed, using bundled data:', err);
-      } finally {
-        setLoading(false);
-      }
-    }
+    setLoading(false);
 
     // Load LocalStorage safely
     try {
@@ -142,8 +128,6 @@ export default function App() {
     } catch (e) {
       console.warn('Storage read failed:', e);
     }
-
-    loadData();
   }, []);
 
   const saveStorage = (
@@ -458,6 +442,8 @@ export default function App() {
           onOpenLeaderboard={() => setShowLeaderboardModal(true)}
           onReviewFlashcard={handleReviewFlashcard}
           onOpenDidYouKnow={() => setShowDidYouKnowPopup(true)}
+          onOpenPyqAtlas={() => setScreen('PYQ_ATLAS')}
+          onOpenMainsCompendium={() => setShowMainsCompendium(true)}
         />
       )}
 
@@ -505,6 +491,15 @@ export default function App() {
         />
       )}
 
+      {screen === 'PYQ_ATLAS' && (
+        <PYQAtlasScreen
+          onBack={() => setScreen('HOME')}
+          onSelectTopicPlace={handleSelectTopicPlace}
+          allTopics={topics}
+          onEarnXpBonus={handleEarnXpBonus}
+        />
+      )}
+
       {/* Rewards & Badges Showcase Modal */}
       {showBadgesModal && (
         <BadgesModal
@@ -544,6 +539,19 @@ export default function App() {
       {/* Android Architecture & Project Explorer */}
       {showAndroidViewer && (
         <AndroidProjectViewer onClose={() => setShowAndroidViewer(false)} />
+      )}
+
+      {/* UPSC Mains Spatial Compendium & Geomorphology Atlas Modal */}
+      {showMainsCompendium && (
+        <MainsCompendiumModal
+          onClose={() => setShowMainsCompendium(false)}
+          onOpenDiagramPad={() => {
+            setShowMainsCompendium(false);
+            setScreen('PYQ_ATLAS');
+          }}
+          onSelectPlace={(place, topic) => handleSelectTopicPlace(topic, place)}
+          allTopics={topics}
+        />
       )}
     </main>
   );

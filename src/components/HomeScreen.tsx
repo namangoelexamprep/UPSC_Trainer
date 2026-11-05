@@ -9,6 +9,7 @@ import { BannerAd } from './BannerAd';
 import { LeaderboardTeaserCard } from './LeaderboardTeaserCard';
 import { DailyFlashcardCard } from './DailyFlashcardCard';
 import { SyllabusPathRoadmap } from './SyllabusPathRoadmap';
+import { DeepWorkFocusTimer } from './DeepWorkFocusTimer';
 import {
   Zap,
   RotateCcw,
@@ -53,6 +54,8 @@ interface HomeScreenProps {
   onOpenLeaderboard: () => void;
   onReviewFlashcard?: (topicId: string, placeName: string, passed: boolean) => void;
   onOpenDidYouKnow?: () => void;
+  onOpenPyqAtlas?: () => void;
+  onOpenMainsCompendium?: () => void;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
@@ -75,7 +78,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onEarnXpBonus,
   onOpenLeaderboard,
   onReviewFlashcard,
-  onOpenDidYouKnow
+  onOpenDidYouKnow,
+  onOpenPyqAtlas,
+  onOpenMainsCompendium
 }) => {
   const [homeMode, setHomeMode] = useState<'LEARN' | 'TEST'>('LEARN');
   const [selectedGroup, setSelectedGroup] = useState<string>('All');
@@ -445,6 +450,66 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           else onSelectTopic(t);
         }}
       />
+
+      {/* ⏳ Deep Work Focus Timer for Map-Based Revision */}
+      <DeepWorkFocusTimer
+        topics={topics}
+        onEarnXpBonus={onEarnXpBonus}
+        onOpenTopicMap={(topic) => onSelectTopic(topic)}
+        className="mb-5"
+      />
+
+      {/* 🏛️ FLAGSHIP 15-YEAR UPSC PYQs SOLVED ATLAS & MAINS DIAGRAM PAD */}
+      <div className="mb-5 bg-gradient-to-br from-[#1F3A4D] via-[#2A4C63] to-[#1F3A4D] rounded-[24px] p-4 sm:p-5 text-white shadow-xl border-2 border-amber-400/30 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
+        
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 relative z-10">
+          <div className="flex items-start gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-amber-400/20 border border-amber-400/40 flex items-center justify-center text-amber-300 text-2xl shadow-inner flex-shrink-0">
+              🏛️
+            </div>
+            <div>
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="bg-amber-400 text-[#1F3A4D] text-[10px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  Flagship Module (2011–2025)
+                </span>
+                <span className="bg-white/10 text-emerald-300 text-[10px] font-bold px-2 py-0.5 rounded-full border border-emerald-400/30">
+                  OMR Simulator + Mains Pad
+                </span>
+              </div>
+              <h3 className="font-serif-title font-bold text-lg sm:text-xl text-white mt-1">
+                15-Year UPSC PYQs Geospatial Solved Atlas
+              </h3>
+              <p className="text-xs text-white/80 mt-1 max-w-xl leading-relaxed">
+                Prelims Geography questions with Official UPSC Keys, Topper Elimination Techniques, Digital OMR Answer Sheet Simulator & Mains GS1 Map Drawing Canvas Pad.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+            {onOpenMainsCompendium && (
+              <button
+                type="button"
+                onClick={onOpenMainsCompendium}
+                className="w-full sm:w-auto px-4 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-black text-xs sm:text-sm shadow-md transition active:scale-95 flex items-center justify-center gap-2 cursor-pointer touch-manipulation"
+              >
+                <span>📖 Mains Answers</span>
+              </button>
+            )}
+
+            {onOpenPyqAtlas && (
+              <button
+                type="button"
+                onClick={onOpenPyqAtlas}
+                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-gradient-to-r from-amber-400 to-[#E07A3F] hover:from-amber-300 hover:to-[#f08548] text-[#1F3A4D] font-black text-xs sm:text-sm shadow-lg transition active:scale-95 flex items-center justify-center gap-2 cursor-pointer touch-manipulation"
+              >
+                <span>Launch 15-Yr Atlas & OMR</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
 
       {/* ======================================================== */}
       {/* 🧭 CLEAR TOP-LEVEL LEARN vs TEST MODE SELECTOR           */}

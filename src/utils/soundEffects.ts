@@ -127,3 +127,95 @@ export function playFanfare() {
     osc.stop(now + c.time + 0.56);
   });
 }
+
+/**
+ * Centering meditative bowl chime for beginning Deep Work map revision
+ */
+export function playFocusStartChime() {
+  if (!isSoundEnabled()) return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  const now = ctx.currentTime;
+  // Fundamental + octave + fifth overtone (Singing bowl harmony)
+  const partials = [
+    { freq: 432, gain: 0.15, decay: 1.2 },
+    { freq: 864, gain: 0.08, decay: 0.9 },
+    { freq: 1296, gain: 0.04, decay: 0.6 }
+  ];
+
+  partials.forEach((p) => {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(p.freq, now);
+
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.exponentialRampToValueAtTime(p.gain, now + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + p.decay);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + p.decay + 0.05);
+  });
+}
+
+/**
+ * Resonant completion bell when a Deep Work block concludes
+ */
+export function playFocusCompleteChime() {
+  if (!isSoundEnabled()) return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  const now = ctx.currentTime;
+  const bellPitches = [523.25, 659.25, 783.99, 1046.5, 1318.51]; // C major pentatonic bells
+
+  bellPitches.forEach((freq, idx) => {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(freq, now + idx * 0.1);
+
+    gain.gain.setValueAtTime(0.001, now + idx * 0.1);
+    gain.gain.exponentialRampToValueAtTime(0.2, now + idx * 0.1 + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + idx * 0.1 + 1.2);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now + idx * 0.1);
+    osc.stop(now + idx * 0.1 + 1.25);
+  });
+}
+
+/**
+ * Ultra-subtle wooden clock tick for rhythmic focus (zero distraction)
+ */
+export function playFocusTick() {
+  if (!isSoundEnabled()) return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  const now = ctx.currentTime;
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+
+  osc.type = 'triangle';
+  osc.frequency.setValueAtTime(800, now);
+  osc.frequency.exponentialRampToValueAtTime(300, now + 0.015);
+
+  gain.gain.setValueAtTime(0.02, now);
+  gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.015);
+
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+
+  osc.start(now);
+  osc.stop(now + 0.018);
+}
+

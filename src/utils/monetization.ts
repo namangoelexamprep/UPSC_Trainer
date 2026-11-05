@@ -36,20 +36,8 @@ export const initializeMonetization = async (): Promise<boolean> => {
       console.log('✅ AdMob Native SDK Initialized Successfully');
       return true;
     } else {
-      // Web Browser Environment (AdSense or Web Ad Fallback)
-      if (typeof window !== 'undefined') {
-        const existingScript = document.getElementById('adsense-script');
-        if (!existingScript) {
-          const script = document.createElement('script');
-          script.id = 'adsense-script';
-          script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-          script.async = true;
-          script.crossOrigin = 'anonymous';
-          document.head.appendChild(script);
-        }
-      }
+      // Web Browser Environment: Completely local offline-first fallback
       isInitialized = true;
-      console.log('🌐 Web AdSense Engine Initialized');
       return true;
     }
   } catch (err) {
